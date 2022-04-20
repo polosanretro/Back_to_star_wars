@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+
+
+   <view name="grid">
+  
+    <image name="background">
+	  <path>./art/bggrid.jpg</path>
+	</image>
+			
+	<image name="Chevron Bas">
+      <size>0.017 0</size>
+	  <pos>0.986 0.9</pos>
+    </image>
+	
+	<image name="Chevron Haut">
+      <size>0.017 0</size>
+	  <pos>0.986 0.1</pos>
+    </image>
+		
+	<text name="md_name">
+      <color>EFEFEF</color>
+	  <pos>0.5 0.04</pos>
+      <size>0.8 0.05</size>
+      <alignment>center</alignment>
+	  <fontSize>0.056</fontSize>
+	  <origin>0.5 0.5</origin>
+      <glowSize>2</glowSize>
+	  <zIndex>41</zIndex>	  
+	</text>
+	
+	<text name="md_developer">
+      <color>5480A0</color>
+	  <pos>0.15 0.04</pos>
+      <size>0.25 0.05</size>
+      <alignment>left</alignment>
+	  <fontSize>0.036</fontSize>
+	  <origin>0.5 0.5</origin>
+	</text>
+	
+	<rating name="md_rating">
+      <pos>0.904 0.04</pos>
+      <size>0.03 0.03</size>
+	  <origin>0.5 0.5</origin>
+      <color>E0A020</color>
+      <unfilledColor>808080</unfilledColor>
+	  <zIndex>41</zIndex>	  
+    </rating>
+	
+    <imagegrid name="gamegrid">
+	  <margin>0.024 0.024</margin>
+      <pos>0 0.084</pos>
+      <size>1 0.828</size>
+      <padding>0.024 0.024 0.024 0.024</padding>
+      <zIndex>10</zIndex>
+      <autoLayout>6 2</autoLayout>
+      <autoLayoutSelectedZoom>1.1</autoLayoutSelectedZoom>
+      <animateSelection>false</animateSelection>
+      <centerSelection>false</centerSelection>
+	  <scrollLoop>true</scrollLoop>
+	  <scrollSound>./art/scroll2.wav</scrollSound>
+	  <scrollDirection>vertical</scrollDirection>
+	  <scale>0</scale>
+	  <storyboard>
+				<animation property="scale" from="0" to="1" begin="620" duration="175" mode="EaseOut"/>
+      </storyboard>
+	</imagegrid>
+	
+    <gridtile name="default">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <selectionMode>image</selectionMode>
+      <padding>6 6</padding>
+      <imageColor>999999FF</imageColor>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>00000000</backgroundCenterColor>
+      <backgroundEdgeColor>BB0000FF</backgroundEdgeColor>
+	  <padding>6 6</padding>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+	
+    <text name="gridtile">
+      <color>D0D0D0</color>
+      <backgroundColor>00000000</backgroundColor>
+      <fontSize>0.02</fontSize>
+	  <glowSize>0</glowSize>
+      <alignment>center</alignment>
+      <size>1 0.1</size>
+    </text>
+	
+    <text name="gridtile:selected">
+      <color>EFEF00ff</color>
+	  <fontSize>0.02</fontSize>
+      <glowColor>BB0000FF</glowColor>
+      <glowSize>0</glowSize>
+	  <size>1 0.1</size>
+    </text>
+	
+	<image name="gridtile.favorite">
+	 <linearSmooth>true</linearSmooth>
+      <path>:/star_filled.svg</path>
+      <pos>0.93 0.07</pos>
+      <maxSize>0.15 0.15</maxSize>
+      <origin>0.5 0.5</origin>
+      <horizontalAlignment>right</horizontalAlignment>
+      <color>FFFF0080</color>
+    </image>
+	
+    <image name="gridtile.favorite:selected">
+	  <linearSmooth>true</linearSmooth>
+      <color>FFFF00D0</color>
+    </image>
+	
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>BBBB00B0</animateColor>
+      <animateColorTime>350</animateColorTime>
+    </ninepatch>
+	
+	<image name="md_image, md_flag, md_thumbnail, md_marquee, Chevron gauche, Chevron droite">
+	  <visible>false</visible>
+	</image>
+	
+	<image name="tv_frame, tvframe2">
+	  <pos>2 2</pos>
+	</image>
+	
+	<image name="md_favorite">
+	  <color>00000000</color>
+	</image>
+	
+	<video name="md_video">
+	  <visible>false</visible>
+	</video>
+	
+    <text name="md_genre, md_players, md_playcount, md_description">
+      <pos>2 2</pos>
+    </text>
+	
+  </view>
+   
+   </theme>

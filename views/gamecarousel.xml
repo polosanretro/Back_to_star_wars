@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+
+
+    <view name="gamecarousel">
+
+	<helpsystem name="help">
+      <textColor>fffc00</textColor>
+      <iconColor>ff0000</iconColor>
+	  <fontPath>./medias/conthrax-sb.ttf</fontPath>
+	  <fontSize>0.025</fontSize>
+	  <pos>0.005 0.955</pos>
+    </helpsystem>
+		
+		<text name="md_description">
+	    <pos>0.235 0.1</pos>
+        <size>0.27 0.30</size>
+			<color>DCA319</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./medias/conthrax-sb.ttf</fontPath>
+			<fontSize>0.015</fontSize>
+		</text>
+		
+		<rating name="md_rating">
+         <pos>0.290 0.014</pos>
+         <size>0.6 0.080</size>
+         <filledPath>./medias/logo/Hatchet-icon-1.png</filledPath>
+         <unfilledPath>./medias/logo/Hatchet-icon-0.png</unfilledPath>
+		 <zIndex>42</zIndex>
+      </rating>
+
+    <video name="md_video">
+<path>{random}</path>
+      <pos>0.155 0.33</pos>
+      <size>0.14 0.14</size>
+      <origin>0.5 0.5</origin>
+      <delay>0.1</delay>
+      <showSnapshotNoVideo>false</showSnapshotNoVideo>
+      <showSnapshotDelay>false</showSnapshotDelay>
+      <loops>1</loops>
+      <roundCorners>0.02</roundCorners>
+      <zIndex>40</zIndex>
+<default>./medias/noise.mp4</default>
+    </video>
+
+		<image name="basfond" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./medias/fonbasG.jpg</path>
+		 <zIndex>43</zIndex>
+		</image>	
+
+        <image name="backgroundfond" extra="true">
+        <pos>0 </pos>
+        <origin>0 0</origin>
+        <size>1 1</size>
+        <path>./medias/fondG2.png</path>
+        </image>
+
+
+        <image name="bouleanime" extra="true">
+<visible>false</visible>
+
+        </image>
+
+        <image name="vaisseau2" extra="true">
+        <pos>0.52 0.12</pos>
+        <origin>0 0</origin>
+        <size>0.2 0.188</size>
+        <path>./medias/vaisseau2.png</path>
+		<storyboard>
+        		<animation property="y" to="0.58" begin="2800" autoreverse="true" duration="7200" repeat="forever" mode="easyIn"/>
+        		<animation property="x" to="0.63" begin="300" autoreverse="true" duration="8450" repeat="forever" mode="easyIn"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+
+        </image>
+
+        <image name="freezer" extra="true">
+        <pos>0.28 0.40</pos>
+        <origin>0 0</origin>
+        <size>0.1 0.2</size>
+        <path>./medias/freezer.png</path>
+		<storyboard>
+        		<animation property="y" to="0.40" begin="2800" autoreverse="true" duration="9200" repeat="forever" mode="easyIn"/>
+        		<animation property="x" to="0.48" begin="300" autoreverse="true" duration="11450" repeat="forever" mode="easyIn"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+
+        </image>
+
+
+
+<gamecarousel name="gamecarousel">
+<zIndex>1002</zIndex>	      
+<type>vertical_wheel</type>
+<pos>0.314 0</pos>
+<size>1 1</size>
+<logoScale>1.45</logoScale>
+<logoSize>0.100 0.200</logoSize>
+<color>00000000</color>
+<maxLogoCount>30</maxLogoCount>
+<logoRotation>-8</logoRotation>
+<logoRotationOrigin>3.0 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>   
+<imageSource>marquee</imageSource>
+<scrollSound>./sounds/scroll.ogg</scrollSound>
+</gamecarousel> 
+
+
+	   <image name="fond1" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.560 0</pos>
+         <size>1.15 3</size>
+         <path>./medias/1223.png</path>
+         <zIndex>40</zIndex>
+      </image>
+  
+	   <image name="logos" extra="true">
+         <origin>0.5 0.5</origin>
+         <size>0.19 0.09</size>
+      <pos>0.62 0.10</pos>
+          <path>./medias/capsules/default.png</path>
+          <path>./medias/capsules/${system.theme}.png</path>
+  <reflexion>0.12 0.0</reflexion>
+ <reflexionOnFrame>true</reflexionOnFrame>
+         <zIndex>43</zIndex>
+
+      </image>
+
+
+
+    <text name="md_developer, md_publisher, md_releasedate, md_players">
+      <storyboard>
+        <animation property="opacity" from="0" duration="350" mode="easeOut"/>
+      </storyboard>
+    </text>
+    -->
+    <text name="md_developer, md_publisher, md_releasedate, md_players">
+      <color>969696</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./media/images/Nunito-SemiBold.ttf</fontPath>
+      <fontSize>0.023</fontSize>
+    </text>
+    <text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
+      <pos>1 1</pos>
+    </text>
+
+    <image name="md_flag">
+<visible>false</visible>
+    </image>
+    <text name="md_developer">
+<visible>false</visible>
+    </text>
+
+    <text name="md_players">
+<visible>false</visible>
+    </text>
+
+
+    <datetime name="md_releasedate">
+<visible>false</visible>
+    </datetime>
+
+<image name="md_cheevos,md_notcheevos">
+<visible>false</visible>
+</image>
+    
+    
+<image name="md_cheevos">
+<animation property="opacity" to="0" autoreverse="true" repeat="forever" duration="0" mode="Linear"/>
+</image>
+
+<image name="md_hiddenExtra" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="md_hidden">
+<visible>false</visible>
+</image>
+
+<image name="md_savestateExtra" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="md_savestate,md_nosavestate">
+<visible>false</visible>
+</image>
+
+	
+<image name="md_kidgame"> 
+<visible>false</visible>
+</image>
+
+<image name="md_notkidgame"> 
+<visible>false</visible>
+</image>
+
+    <image name="md_manual">
+<visible>false</visible>
+    </image>
+    <!--
+    <image name="md_favorite">
+<visible>false</visible>
+    </image>-->
+
+
+
+
+    <image name="md_fanart">
+      <pos>0.137 0.14</pos>
+      <size>0.099 0.20</size>
+      <origin>0.5 0.5</origin>
+      <color>ffffff</color>
+      <zIndex>43</zIndex>
+    </image>
+
+  
+  </view> 
+   
+   </theme>

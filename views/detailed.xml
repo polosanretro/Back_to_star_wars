@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+
+  <view name="detailed">
+
+	<image name="Controller+logo 1, Controller+logo 2">
+	  <linearSmooth>true</linearSmooth>
+      <origin>0.5 0.5</origin>
+      <size>0.1375 0</size>
+      <path>./art/controller.png</path>
+      <path>./art/wheel/${system.theme}.png</path>
+	  <zIndex>102</zIndex>
+    </image>
+
+	<image name="Controller+logo 1" extra="true">
+			<storyboard>
+				<animation property="offsetX" from="0.326" to="0" begin="" duration="1400" mode="EaseOutQuint"/>
+			</storyboard>	
+     </image>
+	
+	<image name="Controller+logo 2" extra="true">
+			<storyboard>
+				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
+			</storyboard>	
+    </image>
+	 	  
+	<textlist name="gamelist">
+     <selectorColor>0080D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:none">00000000</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
+     <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentred">E8000060</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentgrey">C8C8C860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentblue">48A8E860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainblue">3070FF</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainred">A80000</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainblack">000000ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plaingrey">404040ff</selectorColor>
+	 <selectorColorEnd>00000000</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentred">E8000010</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentgrey">C8C8C810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentblue">48A8E810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainblue">3070FF</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainred">A80000</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainblack">000000ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plaingrey">404040ff</selectorColorEnd>
+	  <selectorOffsetY>0.01</selectorOffsetY>
+	<selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred|plainblack|plaingrey">0</selectorOffsetY>
+	  <selectedColor>48B8F0</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">FF4048</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
+	  <primaryColor>A0AABB</primaryColor>
+      <secondaryColor>7a6161</secondaryColor>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <forceUppercase>1</forceUppercase>
+      <pos>0.25 0.263</pos>
+      <size>0.5 0.62</size>
+      <alignment>center</alignment>
+      <horizontalMargin>0.005</horizontalMargin>
+      <fontSize>0.0324</fontSize>
+	  <lines>11</lines>
+	  <scrollSound>./art/scroll.wav</scrollSound>
+	  <zIndex>15</zIndex>	  
+	</textlist>
+   
+    <image name="background">
+	    <path>./art/bgdetailed.png</path>
+    </image>
+	
+	<image name="background2" extra="true">
+	    <path>./art/bgdetailed2.png</path>
+		<zIndex>43</zIndex>
+    </image>
+	
+	<image name="Controller+logo 1" extra="true">
+	  <pos>0.874 0.668</pos>
+     </image>
+	
+	<image name="Controller+logo 2" extra="true">
+	  <pos>0.126 0.668</pos>
+    </image>
+	
+	<image name="Chevron Bas">
+      <pos>0.7640625 0.88</pos>
+	</image>
+	
+	<image name="Chevron Haut">
+      <pos>0.7640625 0.475</pos>
+	</image>
+	
+	<image name="Controller">
+	    <visible>false</visible>
+	</image>
+		
+	<image name="md_thumbnail">
+	  <pos>0.14 0.214</pos>
+      <maxSize>0.246 0.424</maxSize>
+	  	  <reflexion>0 0</reflexion>
+	  	  	<storyboard event="activate">
+                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+	</image>
+	
+	<image name="md_marquee">
+	  <linearSmooth>true</linearSmooth>
+	  <reflexion>0.25 0</reflexion>
+	  <pos>0.88 0.26</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.19 0.16</maxSize>
+	  <zIndex>42</zIndex>
+	  	  	 <storyboard event="activate">
+                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+	</image>
+			
+    <textlist name="gamelist">
+      <pos>0.25 0.431</pos>
+      <size>0.5 0.489</size>
+	  <lines>9</lines>
+	</textlist>
+	
+	<text name="md_name">
+      <visible>false</visible>
+    </text>
+
+    <image name="background, background2,tvframe2, black screen">
+	  <pos>0 0</pos>
+     	  <origin>0 0</origin>
+          <size>1 1</size>
+	  <linearSmooth>false</linearSmooth>	  
+	</image>
+	
+	<image name="background">
+	  <zIndex>0</zIndex>
+	</image>
+	
+	<image name="black screen" extra="true">
+	  <path>./art/black screen.jpg</path>
+	  <opacity>1</opacity>
+	  <storyboard>
+			<animation property="opacity" from="1" to="0" begin="0" duration="1500" mode="Linear"/>
+     	  </storyboard>
+	  <zIndex>200</zIndex>
+	</image>
+	
+	
+    <image name="logo">
+	  <linearSmooth>true</linearSmooth>
+      <path>./art/Colorlogos/${system.theme}.png</path>
+      <path>./art/Colorlogos/${system.theme}.svg</path>
+	  <pos>0.5 0.5</pos>
+      <maxSize>0.12 0.076 </maxSize>
+      <origin>0.5 0.5</origin>
+	  <scale>0</scale>
+	  <zIndex>201</zIndex>
+	  <storyboard>
+		<animation property="scale" from="0" to="5" begin="" duration="300" mode="Linear"/>
+		<animation property="scale" from="5" to="1" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.94" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.96" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="tvframe2" extra="true">
+      <origin>0.5 0.5</origin>
+      <size>0.4 0</size>
+	  <path>./art/tvframe2.png</path>
+      <zIndex>17</zIndex>
+	  <visible>false></visible>
+	  <visible ifSubset="tvframecolor:dark grey">true</visible>
+	</image>
+	  
+	  <image name="Controller, Controller1, Controller2">
+	  	<linearSmooth>true</linearSmooth>
+      		<origin>0.5 0.5</origin>
+	       	<path>./art/controller.png</path>
+     		<path>./art/controllers/${system.theme}.png</path>
+	  	<zIndex>101</zIndex>
+	</image>
+	
+	<image name="Chevron Bas, Chevron Haut, Chevron gauche, Chevron droite">
+      <origin>0.5 0.5</origin>
+      <size>0.01875 0</size>
+	  <color>DDDDDD</color>
+	  <path>./art/chevron-arrows-svgrepo-com.svg</path>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>41</zIndex>
+	</image>
+	
+	<image name="Chevron Bas" extra="true">
+	  <flipY>true</flipY>
+	  <rotation>0</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetY" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron Haut" extra="true">
+	  <flipY>false</flipY>
+	  <rotation>0</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron droite" extra="true">
+		<flipY>false</flipY>
+		<rotation>90</rotation>
+		<storyboard repeat="forever">
+            <animation property="offsetX" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetX" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron gauche" extra="true">
+	  <flipY>false</flipY>
+	  <rotation>-90</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetX" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+<!-- 	<image name="md_image">
+	  <default>./art/noimage.png</default>
+	  <linearSmooth>true</linearSmooth>
+	  <size>0.271875 0.36296296296</size>
+      <origin>0.5 0.5</origin>	
+      <zIndex>2</zIndex>	  
+	</image> -->
+	
+	<image name="md_thumbnail">
+	  <default>./art/noboxart.png</default>
+	  <linearSmooth>true</linearSmooth>
+	  <origin>0.5 0.5</origin>
+      <reflexion>0.3 0.0</reflexion>
+	  <zIndex>11</zIndex>	  
+	</image>
+	
+	<image name="md_marquee">
+	  <default>./art/nologo.png</default>	  
+	</image>
+	
+	<video name="md_video">
+	  <maxSize>0.36296296296 0.36296296296</maxSize>
+      <origin>0.5 0.5</origin>
+	  <delay>0.1</delay>
+	  <effect>none</effect>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+	  <delay>0.7</delay>
+	  <showSnapshotDelay>true</showSnapshotDelay>
+	  <snapshotSource>image</snapshotSource>
+      <loops>2</loops>
+      <roundCorners>0</roundCorners>
+	  <zIndex>3</zIndex>	  
+	</video>
+	  
+	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate">
+	  <linearSmooth>true</linearSmooth>
+	  <origin>0.5 0.5</origin>
+	  <size>0.02 0</size>
+      <color>969696</color>
+	  <zIndex>150</zIndex>	  
+	</image>
+	
+	<image name="md_hidden">
+	  <pos>0.81 0.9685</pos>
+      <path>./art/hidden.svg</path>
+    </image>
+	
+    <image name="md_kidgame, md_notkidgame">
+	  <pos>0.6015625 0.9685</pos>
+	  <color>994444</color>
+	  <size>0.018 0</size>
+      <path>./art/kid.svg</path>
+    </image>
+	
+	<image name="md_notkidgame">
+			<color>808080F0</color>
+	</image>
+	
+    <image name="md_favorite">
+	  <pos>0.88 0.42</pos>
+      <path>./art/favorite.svg</path>
+      <color>960000</color>
+	</image>
+	
+	<image name="md_flag">
+		<pos>0.788 0.47</pos>
+		<color>EEEEEE</color>
+	</image>
+	
+	<image name="md_manual, md_nomanual">
+			<path>./art/manual.png</path>
+			<color>009600</color>
+			<pos>0.2729166666666667 0.9685</pos>
+	</image>
+	
+	<image name="md_nomanual">
+			<color>808080F0</color>
+	</image>
+	
+	<image name="md_cheevos, md_notcheevos">
+			<path>./art/cheevos.png</path>
+			<color>969600</color>
+			<pos>0.4765625 0.9685</pos>
+	</image>
+	
+	<image name="md_notcheevos">
+			<color>808080F0</color>
+	</image>
+		
+	<image name="md_savestate, md_nosavestate">
+			<path>./art/SaveState.png</path>
+			<pos>0.733333 0.9685</pos>
+			<size>0.018 0</size>
+			<color>0022FF</color>
+	</image>
+	
+	<image name="md_nosavestate">
+			<color>808080F0</color>
+	</image>
+		
+	<text name="md_description">
+      <origin>0.5 0.5</origin>
+      <color>E0E0E0ff</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <fontSize>0.023</fontSize>
+	  <glowColor>00000080</glowColor>
+	  <glowSize>1</glowSize>
+	  <glowOffset>1</glowOffset>
+      <zIndex>15</zIndex>
+		<storyboard>
+                <animation property="opacity" from="0" to="0" duration="1000" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1000" duration="1500" mode="Linear"/>
+		</storyboard>
+    </text>
+	
+	<text name="md_developer">
+      <color>4480AA</color>
+	  <forceUppercase>1</forceUppercase>
+	  <glowColor>00000016</glowColor>
+      <glowSize>2</glowSize>
+	  <zIndex>41</zIndex>
+	</text>
+	
+	<datetime name="md_releasedate">
+      <color>d2bfa8FF</color>
+	  <format>%Y</format>
+	  <fontPath>./art/ARCADE.TTF</fontPath>
+	  <glowColor>00000016</glowColor>
+      <glowSize>2</glowSize>
+	</datetime>
+		  
+        <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_lbl_lastplayed, md_publisher, md_lbl_gametime, md_gametime">
+		  <pos>1.5 1.5</pos>
+	      <visible>false</visible>
+	</text>
+	
+	<datetime name="md_lastplayed">
+		<pos>1.5 1.5</pos>
+  		<visible>false</visible>
+	</datetime>
+			
+    </view>
+
+
+
+</theme>
