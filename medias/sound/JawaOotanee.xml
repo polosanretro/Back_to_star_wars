@@ -1,0 +1,42 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+      <carousel name="systemcarousel">
+	  <scrollSound>./mediassound/JawaOotanee.wav</scrollSound>
+      </carousel>    
+</view> 
+
+<view name="basic">
+      <textlist name="gamelist">
+	  <scrollSound>./medias/sound/JawaOotanee.wav</scrollSound>
+      </textlist>
+</view> 
+
+<view name="detailed">
+       <textlist name="gamelist">
+	   <scrollSound>./medias/sound/JawaOotanee.wav</scrollSound>
+       </textlist>
+</view> 
+     
+<view name="video">
+       <textlist name="gamelist">
+	   <scrollSound>./medias/sound/JawaOotanee.wav</scrollSound>
+       </textlist>
+ </view> 
+ 
+<view name="grid">
+ 	  <imagegrid name="gamegrid">
+	  <scrollSound>./medias/sound/JawaOotanee.wav</scrollSound>      		
+      </imagegrid> 
+</view>
+
+<view name="gamecarousel">
+      <gamecarousel name="gamecarousel">
+      <scrollSound>./medias/sound/JawaOotanee.wav</scrollSound>  
+      </gamecarousel> 
+</view>
+	 
+</theme>
