@@ -1,0 +1,61 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	 <view name="menu">
+    <menuIcons name="menuicons">
+      <size>0.10 0.25</size>
+      <iconKodi>./medias/iconsets/starwars/Kodi.png</iconKodi>
+      <iconSystem>./medias/iconsets/starwars/System.png</iconSystem>
+      <iconUpdates>./medias/iconsets/starwars/Updates.png</iconUpdates>
+      <iconGames>./medias/iconsets/starwars/Games.png</iconGames>
+      <iconControllers>./medias/iconsets/starwars/Controllers.png</iconControllers>
+      <iconUI>./medias/iconsets/starwars/UI.png</iconUI>
+      <iconSound>./medias/iconsets/starwars/Sound.png</iconSound>
+      <iconNetwork>./medias/iconsets/starwars/Network.png</iconNetwork>
+      <iconScraper>./medias/iconsets/starwars/Scraper.png</iconScraper>
+      <iconAdvanced>./medias/iconsets/starwars/Advanced.png</iconAdvanced>
+      <iconQuit>./medias/iconsets/starwars/Quit.png</iconQuit>
+      <iconRestart>./medias/iconsets/starwars/Restart.png</iconRestart>
+      <iconShutdown>./medias/iconsets/starwars/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./medias/iconsets/starwars/Fastshutdown.png</iconFastShutdown>
+      <iconRetroachievements>./medias/iconsets/starwars/Contest.png</iconRetroachievements>
+	</menuIcons>
+  </view>
+  
+  <view name="system">
+	<helpsystem name="help">
+<pos>0.35 0.96</pos>
+			<iconColor>FFFFFFFF</iconColor>
+			<iconUpDown>./arcade/updown.png</iconUpDown>
+			<iconLeftRight>./arcade/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./arcade/all.png</iconUpDownLeftRight>
+			<iconA>./arcade/a.png</iconA>
+			<iconB>./arcade/b.png</iconB>
+			<iconX>./arcade/x.png</iconX>
+			<iconY>./arcade/y.png</iconY>
+			<iconL>./arcade/l.png</iconL>
+			<iconR>./arcade/r.png</iconR>
+			<iconStart>./arcade/start.png</iconStart>
+			<iconSelect>./arcade/select.png</iconSelect>
+		</helpsystem>		
+	</view>
+
+  <view name="basic, detailed, grid, video, gamecarousel, BoxCarousel">
+	<helpsystem name="help">
+<pos>0.04 0.97</pos>
+			<iconColor>FFFFFFFF</iconColor>
+			<iconUpDown>./arcade/updown.png</iconUpDown>
+			<iconLeftRight>./arcade/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./arcade/all.png</iconUpDownLeftRight>
+			<iconA>./arcade/a.png</iconA>
+			<iconB>./arcade/b.png</iconB>
+			<iconX>./arcade/x.png</iconX>
+			<iconY>./arcade/y.png</iconY>
+			<iconL>./arcade/l.png</iconL>
+			<iconR>./arcade/r.png</iconR>
+			<iconStart>./arcade/start.png</iconStart>
+			<iconSelect>./arcade/select.png</iconSelect>
+		</helpsystem>		
+	</view>
+	
+</theme>
