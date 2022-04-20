@@ -1,0 +1,2557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:
+
+polosanretro Gaming Thème Megamax+plus
+https://www.facebook.com/groups/1235834023553071/posts/1337529916716814/?comment_id=1337582090044930&notif_id=1646048852605760&ref=notif&notif_t=group_comment_reply
+
+
+-->
+<theme defaultView="video">
+
+  <formatVersion>7</formatVersion>
+
+<include>./medias/textI/${system.theme}.xml</include>
+<include>./views/gamelist_logo.xml</include>
+<include>./medias/iconsets/default.xml</include>
+
+<!-- Variables-->
+  <variables>
+
+    <baseColor>14C6CA</baseColor>
+
+	<!-- Couleurs -->
+	<ColorSeleccionMenu>e32934</ColorSeleccionMenu>
+	<primaryColorMenu>ffffff</primaryColorMenu>
+	<secundaryColorMenu>d7d7d8</secundaryColorMenu>
+	<ColordelSelectorMenu>1c1c1c</ColordelSelectorMenu>
+
+
+
+	<pauseColorIconos>cecece</pauseColorIconos>
+        <pauseColorTexto>efe9e5</pauseColorTexto>
+
+
+
+	<systemInfoColor>1d1d1b</systemInfoColor>
+        <glowColor>efe9e5</glowColor>
+	<colorHora>ffffff</colorHora>
+
+	<subset.colorset>Jeux de couleurs</subset.colorset>
+	<fundacion>Fonction</fundacion>
+	<colorDescriccion>ffffff</colorDescriccion> 
+        <UIcolortitulo>efe9e5</UIcolortitulo>
+	<fondoMenu>333333</fondoMenu>
+	<colorDeveloper>ffffff</colorDeveloper>	  
+
+</variables>
+
+<!-- MENU -->  
+  <view name="menu">
+	<menuText name="menutitle">
+	                       <fontPath>./medias/fonts/roundedledboard.ttf</fontPath>
+		<fontSize>0.016</fontSize>
+		<color>F7EA80</color>
+    </menuText>
+    <menuText name="menufooter">
+                           <fontPath>./medias/fonts/roundedledboard.ttf</fontPath>
+		<fontSize>0.012</fontSize>
+		<color>DAAF71</color>
+    </menuText>
+    <menuText name="menutext">
+                        <fontPath>./medias/fonts/roundedledboard.ttf</fontPath>
+		<fontSize>0.014</fontSize>
+		<color>F7EA80</color>
+		<separatorColor>DAAF71</separatorColor>
+		<selectorColor>202020</selectorColor>
+		<selectedColor>b3ff47</selectedColor>
+      <selectorColorEnd>dgdgdg</selectorColorEnd>
+      <selectorGradientType>vertical</selectorGradientType>
+    </menuText>
+    <menuTextSmall name="menutextsmall">
+                           <fontPath>./medias/fonts/roundedledboard.ttf</fontPath>
+		<fontSize>0.011</fontSize>
+		<color>ffffff</color>
+    </menuTextSmall>
+    <menuBackground name="menubg">
+		<color>29313399</color>
+		<cornerSize>16 16</cornerSize>
+                                       <!-- <path>./medias/???.png</path> -->
+    </menuBackground>
+    <menuTextEdit name="menutextedit">
+	                   <inactive>./medias/textinput_ninepatch.png</inactive>
+                            <active>./medias/textinput_ninepatch_active.png</active>
+	</menuTextEdit>
+    <menuGroup name="menugroup">
+      <fontPath>./_inc/roundedledboard.ttf</fontPath>
+		<fontSize>0.012</fontSize>
+		<color>ffffff</color>
+		<separatorColor>DAAF71</separatorColor>
+		<backgroundColor>00000000</backgroundColor>
+		<lineSpacing>3</lineSpacing>
+    </menuGroup>
+    <menuButton name="menubutton">
+	                          <path>./medias/button.png</path>
+                                  <filledPath>./medias/button_filled.png</filledPath>
+    </menuButton> 
+  </view>
+
+
+
+
+<!--   <view name="menu">
+    <menuIcons name="menuicons">
+      <iconKodi>./medias/iconsets/starwars/Kodi.png</iconKodi>
+      <iconSystem>./medias/iconsets/starwars/System.png</iconSystem>
+      <iconUpdates>./medias/iconsets/starwars/Updates.png</iconUpdates>
+      <iconGames>./medias/iconsets/starwars/Games.png</iconGames>
+      <iconControllers>./medias/iconsets/starwars/Controllers.png</iconControllers>
+      <iconUI>./medias/iconsets/starwars/UI.png</iconUI>
+      <iconSound>./medias/iconsets/starwars/Sound.png</iconSound>
+      <iconNetwork>./medias/iconsets/starwars/Network.png</iconNetwork>
+      <iconScraper>./medias/iconsets/starwars/Scraper.png</iconScraper>
+      <iconAdvanced>./medias/iconsets/starwars/Advanced.png</iconAdvanced>
+      <iconQuit>./medias/iconsets/starwars/Quit.png</iconQuit>
+      <iconRestart>./medias/iconsets/starwars/Restart.png</iconRestart>
+      <iconShutdown>./medias/iconsets/starwars/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./medias/iconsets/starwars/Fastshutdown.png</iconFastShutdown>
+      <iconRetroachievements>./medias/iconsets/starwars/Contest.png</iconRetroachievements>
+    </menuIcons>
+  </view> -->
+
+  <view name="screen">
+    <image name="medias/shader/effect_glitch" extra="true">
+      <pos>-0.02  0</pos>
+      <size>1 1</size>
+        <path>./effect_glitch.mp4</path>
+      <color>FFFFFF60</color>
+      <tile>true</tile>
+    </image>
+  </view>
+
+
+  <view name="system">
+
+
+			<image name="persos" extra="true">
+			<path>./_inc/Persosstarwars/${system.theme}.png</path>
+			<origin>1 0.5</origin>
+                 <pos>0.375 0.728</pos>
+		<size>0.166 0.560</size>
+		                <zIndex>1089</zIndex>
+			</image>       
+  	
+                 
+<text name="systemText" extra="true">
+<origin>0 1</origin>
+<color>ffffff</color>
+<glowColor>12121250</glowColor>
+<fontPath>./medias/media/adventure.ttf</fontPath>
+<alignment>left</alignment>
+<zIndex>5</zIndex>
+<pos>0.35 0.89</pos>
+<visible tinyScreen="true">false</visible>
+</text>
+
+	<text name="TextName" extra="true">
+<size>0.13 0.05</size>
+<pos>0.7189 0.186</pos>
+	      <zIndex>10089</zIndex>
+		<storyboard>
+        		<animation property="opacity" from="0" to="0" begin="0" duration="1800" mode="linear"/>
+        		<animation property="opacity" from="0" to="1" begin="2500" duration="300" mode="linear"/>
+		</storyboard>
+</text>
+
+<image name="cadre" extra="true">
+<path>./_inc/images/mdFrame1.png</path>
+<origin>0.5 0.5</origin>
+<size>0.158 0.144</size>
+<pos>0.680 0.18</pos>
+<zIndex>10088</zIndex>
+</image>
+
+<image name="mask01" extra="true">
+<path>./_inc/images/mask.png</path>
+<origin>0.5 0.5</origin>
+<size>0.14 0.132</size>
+<pos>0.680 0.18</pos>
+<zIndex>10087</zIndex>
+</image>
+
+<image name="background3" extra="true">
+<linearSmooth>true</linearSmooth>
+<origin>1 0.5</origin>
+<size>0.543 0.63</size>
+<pos>0.967 0.5524814814814815</pos>
+<path>./_inc/wallpapersstarwars/default.jpg</path>
+<path>./_inc/wallpapersstarwars/${system.theme}.png</path>
+<path>./_inc/wallpapersstarwars/${system.theme}.jpg</path>
+<zIndex>2</zIndex>          
+</image> 
+
+
+<video name="Snapvideo" extra="true">
+<path>./_inc/videos/${system.theme}.mp4</path>
+<origin>0.5 0.5</origin>
+<size>0.543 0.63</size>
+<pos>0.697 0.5524814814814815</pos>
+<delay>2.4</delay>		
+<zIndex>3</zIndex>
+<roundCorners>0.02</roundCorners> 
+</video>
+	<image name="box" extra="true">
+<linearSmooth>true</linearSmooth>
+	  <path>./_inc/wallpapersstarwars/default0.jpg</path>
+          <pos>0 0</pos>
+          <size>1 0.990</size>
+          <origin>0 0</origin>
+	  <zIndex>1</zIndex>
+		<storyboard>
+        		<animation property="scale" to="1.0025" begin="0" autoreverse="true" duration="250" repeat="forever" mode="bump"/>
+        		<animation property="color" to="999999" begin="0" autoreverse="true" duration="5" repeat="forever" mode="linear"/>
+        		<animation property="colorEnd" to="ff9999" begin="0" autoreverse="true" duration="6000" repeat="forever" mode="linear"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+	</image>
+
+      <video name="mod_effect" extra="true">
+      <pos>0.02 0</pos>
+        <path>./medias/shader/effect_glitch.mp4</path>
+        <color>A0A0A025</color>
+      <size>1 1</size>
+	    <zIndex>1</zIndex>
+      </video>
+
+    <image name="effect_glitch" extra="true">
+      <pos>0.044 0.0835</pos>
+      <size>1 1</size>
+        <path>./medias/shader/effect_glitch.mp4</path>
+      <color>FFFFFF60</color>
+      <tile>true</tile>
+	    <zIndex>1</zIndex>
+    </image>
+	
+
+		
+<text name="systemInfo">     
+<pos>0.200 0.84</pos>
+<backgroundColor>00000000</backgroundColor>
+<color>76CA46</color>
+<fontPath>./_inc/fonts/NEON CLUB MUSIC_bold.otf</fontPath>
+<fontSize>0.028</fontSize>
+<glowColor>ffffff66</glowColor>
+<zIndex>10</zIndex>
+<opacity>0</opacity>
+<storyboard>
+<animation property="opacity" from="0" to="1" duration="20" mode="easeIn"/>
+<animation property="offsetX" from="0.3" duration="150" mode="easeOut"/>
+<animation property="scale" from="0.5" duration="150" mode="easeOut"/>
+<animation property="glowColor" from="11e6f3" duration="150" mode="easeOut"/>
+</storyboard>
+</text>
+
+
+		<image name="basfond" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./medias/fonbasG.jpg</path>
+		 <zIndex>43</zIndex>
+		</image>                 
+
+<image name="backOverlay" extra="true">
+<linearSmooth>true</linearSmooth>
+<origin>1 0.5</origin>
+<pos>1 0.5</pos>
+<maxSize>0.85 85</maxSize>
+<zIndex>1</zIndex>                 
+<path>./_inc/images/backOverlay.png</path>
+<color>121212</color>
+<colorEnd>121212</colorEnd>
+<gradientType>vertical</gradientType>
+</image>                    
+
+<image name="overlay" extra="true">
+<linearSmooth>true</linearSmooth>
+<origin>1 0.5</origin>
+<pos>1 0.5</pos>
+<maxSize>0.85 85</maxSize>
+<zIndex>7</zIndex>                 
+<path>./_inc/images/overlay0.png</path>
+<path>./_inc/images/overlay02.png</path>
+</image>                    
+
+<image name="white" extra="true">
+<linearSmooth>true</linearSmooth>
+<origin>1 0.5</origin>
+<pos>1 0.5</pos>
+<maxSize>0.85 85</maxSize>
+<zIndex>8</zIndex>                 
+<path>./_inc/images/white.png</path>
+<color>ffffff</color>
+<colorEnd>ffffff</colorEnd>
+<gradientType>vertical</gradientType>
+<storyboard>
+<animation property="opacity" to="0.8" duration="15" autoreverse="true" repeat="forever" mode="bump"/>
+</storyboard>
+</image>                    
+
+
+<image name="vaisseau2" extra="true">
+<path>./_inc/Persosstarwars/pngwingbas.png</path>
+<zIndex>10088</zIndex>
+<color>ffffff</color>
+<size>0.15 0.2</size>
+<pos>0.813 0.795</pos>
+<rotation>13</rotation>
+		<storyboard repeatAt="1801">
+        		<animation property="y" from="2" begin="0" duration="1800" mode="linear"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+
+        		<animation property="opacity" begin="3800" from="1" to="0.8" duration="10" autoreverse="true" repeat="5" mode="linear"/>
+        		<animation property="opacity" begin="4500" from="1" to="0.8" duration="5" autoreverse="true" repeat="3" mode="linear"/>
+        		<animation property="opacity" begin="6500" from="1" to="0.8" duration="7" autoreverse="true" repeat="2" mode="linear"/>
+        		<animation property="opacity" begin="7000" from="1" to="0.8" duration="5" autoreverse="true" repeat="4" mode="linear"/>
+        		<animation property="opacity" begin="12000" from="1" to="0.8" duration="10" autoreverse="true" repeat="10" mode="linear"/>
+		</storyboard>
+</image>
+
+	<image name="V2lazer1" extra="true">
+      <origin>0.5 0.5</origin>
+      <size>0.052 0.036</size>
+      <path>./_inc/laserrouge.png</path>
+       <zIndex>1086</zIndex>
+      <pos>0.880 0.885</pos>
+
+			<storyboard autoreverse="true" repeat="forever">
+                 <animation property="color" from="00000000" to="ffffff" duration="2805" mode="easeIn"/>
+				<animation property="offsetX" from="0" to="0" begin="0" duration="2175" mode="linear"/>
+				<animation property="offsetX" from="0" to="-1.208333" begin="2200" duration="2200" mode="linear"/>
+				<animation property="offsetX" from="1.208333" to="1.208333" begin="2200" duration="2200" mode="linear"/>
+
+            </storyboard>
+    </image>
+
+	<image name="V2lazer2" extra="true">
+      <origin>0.5 0.5</origin>
+      <size>0.052 0.036</size>
+      <path>./_inc/laserrouge.png</path>
+       <zIndex>1086</zIndex>
+      <pos>0.915 0.94</pos>
+
+			<storyboard autoreverse="true" repeat="forever">
+                 <animation property="color" from="00000000" to="ffffff" duration="2805" mode="easeIn"/>
+				<animation property="offsetX" from="0" to="0" begin="0" duration="2175" mode="linear"/>
+				<animation property="offsetX" from="0" to="-1.208333" begin="2200" duration="2200" mode="linear"/>
+				<animation property="offsetX" from="1.208333" to="1.208333" begin="2200" duration="2200" mode="linear"/>
+
+
+            </storyboard>
+    </image>
+
+
+<image name="vaisseau1" extra="true">
+<path>./_inc/Persosstarwars/pngwinghautG.png</path>
+<size>0.15 0.2</size>
+<pos>0.810 0.07</pos>
+      <display>1</display>
+<zIndex>1088</zIndex>
+		<storyboard repeatAt="1801">
+        		<animation property="x" from="1.5" begin="1.5" duration="1600" mode="linear"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+
+        		<animation property="opacity" begin="3800" from="1" to="0.8" duration="10" autoreverse="true" repeat="5" mode="linear"/>
+        		<animation property="opacity" begin="4500" from="1" to="0.8" duration="5" autoreverse="true" repeat="3" mode="linear"/>
+        		<animation property="opacity" begin="6500" from="1" to="0.8" duration="7" autoreverse="true" repeat="2" mode="linear"/>
+        		<animation property="opacity" begin="7000" from="1" to="0.8" duration="5" autoreverse="true" repeat="4" mode="linear"/>
+        		<animation property="opacity" begin="12000" from="1" to="0.8" duration="10" autoreverse="true" repeat="10" mode="linear"/>
+		</storyboard>
+
+</image>
+
+	<image name="V1lazer3" extra="true">
+      <origin>0.5 0.5</origin>
+      <size>0.052 0.032</size>
+      <path>./_inc/laserbleu.png</path>
+       <zIndex>1086</zIndex>
+      <pos>0.857 0.14</pos>
+<rotation>140</rotation>
+		<storyboard>
+                                <animation property="color" from="00000000" to="ffffff" duration="2805" mode="easeIn"/>
+				<animation property="scale" from="0" to="1" begin="320" duration="6000" mode="EaseOut"/>
+        		<animation property="y" to="0.857" begin="2800" duration="2200" repeat="forever" mode="easyIn"/>
+        		<animation property="x" to="0.14" begin="2800" duration="2200" repeat="forever" mode="easyIn"/>
+
+		</storyboard>
+    </image>
+
+
+	<image name="V1lazer4" extra="true">
+      <origin>0.5 0.5</origin>
+      <size>0.052 0.032</size>
+      <path>./_inc/laserbleu.png</path>
+       <zIndex>1086</zIndex>
+      <pos>0.905 0.17</pos>
+<rotation>140</rotation>
+		<storyboard>
+                                <animation property="color" from="00000000" to="ffffff" duration="2805" mode="easeIn"/>
+				<animation property="scale" from="0" to="1" begin="320" duration="6000" mode="EaseOut"/>
+        		<animation property="y" to="0.905" begin="2800" duration="2200" repeat="forever" mode="easyIn"/>
+        		<animation property="x" to="0.17" begin="2800" duration="2200" repeat="forever" mode="easyIn"/>
+
+		</storyboard>
+    </image>
+
+
+<image name="vaisseau3" extra="true">
+<path>./_inc/Persosstarwars/pngwinghautD.png</path>
+<size>0.18 0.2</size>
+<pos>0.385 0.09</pos>
+<zIndex>1088</zIndex>
+
+		<storyboard repeatAt="1801">
+        		<animation property="y" from="-1.5" begin="0" duration="1800" mode="linear"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+
+        		<animation property="opacity" begin="3800" from="1" to="0.8" duration="10" autoreverse="true" repeat="5" mode="linear"/>
+        		<animation property="opacity" begin="4500" from="1" to="0.8" duration="5" autoreverse="true" repeat="3" mode="linear"/>
+        		<animation property="opacity" begin="6500" from="1" to="0.8" duration="7" autoreverse="true" repeat="2" mode="linear"/>
+        		<animation property="opacity" begin="7000" from="1" to="0.8" duration="5" autoreverse="true" repeat="4" mode="linear"/>
+        		<animation property="opacity" begin="12000" from="1" to="0.8" duration="10" autoreverse="true" repeat="10" mode="linear"/>
+		</storyboard>
+		
+</image>
+
+	<image name="V1lazer5" extra="true">
+      <origin>0.5 0.5</origin>
+      <size>0.052 0.032</size>
+      <path>./_inc/laservert.png</path>
+       <zIndex>1086</zIndex>
+      <pos>0.448 0.16</pos>
+<rotation>378</rotation>
+		<storyboard>
+                                <animation property="color" from="00000000" to="ffffff" duration="2910" mode="easeIn"/>
+				<animation property="scale" from="0" to="1" begin="-320" duration="2000" mode="EaseOut"/>
+        		<animation property="y" to="0.890" begin="3800" duration="3200" repeat="forever" mode="easyIn"/>
+        		<animation property="x" to="1.20" begin="3800" duration="3200" repeat="forever" mode="easyIn"/>
+
+		</storyboard>
+    </image>
+
+
+	<image name="V1lazer6" extra="true">
+      <origin>0.5 0.5</origin>
+      <size>0.052 0.032</size>
+      <path>./_inc/laservert.png</path>
+       <zIndex>1086</zIndex>
+      <pos>0.470 0.20</pos>
+<rotation>379</rotation>
+		<storyboard>
+                                <animation property="color" from="00000000" to="ffffff" duration="2910" mode="easeIn"/>
+				<animation property="scale" from="0" to="1" begin="-320" duration="2000" mode="EaseOut"/>
+        		<animation property="y" to="0.905" begin="3800" duration="3200" repeat="forever" mode="easyIn"/>
+        		<animation property="x" to="1.14" begin="3800" duration="3200" repeat="forever" mode="easyIn"/>
+
+		</storyboard>
+    </image>
+	
+</view>
+
+
+
+
+    <view name="basic">
+
+	<helpsystem name="help">
+      <textColor>fffc00</textColor>
+      <iconColor>ff0000</iconColor>
+	  <fontPath>./medias/conthrax-sb.ttf</fontPath>
+	  <fontSize>0.025</fontSize>
+	  <pos>0.005 0.955</pos>
+    </helpsystem>
+
+
+	<video name="box_video" extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.08</pos>
+	  <path>./_inc/animation0.mp4</path>
+	  <size>1 0.400</size>
+	  <zIndex>0</zIndex>
+	</video>
+
+
+	<image name="Controller+logo 1">
+	  <linearSmooth>true</linearSmooth>
+      <origin>0.5 0.4</origin>
+      <size>0.13 0</size>
+      <path>./art/controller.png</path>
+      <path>./art/wheel/${system.theme}.png</path>
+	  <zIndex>102</zIndex>
+    </image>
+
+
+	<image name="Controller+logo 1" extra="true">
+			<storyboard>
+				<animation property="offsetX" from="0.326" to="0" begin="" duration="1400" mode="EaseOutQuint"/>
+			</storyboard>	
+     </image>
+
+	<image name="Controller+logo 2">
+	  <linearSmooth>true</linearSmooth>
+      <origin>0.5 0.5</origin>
+      <size>0.1375 0</size>
+      <path>./_inc/Persosstarwars/${system.theme}.png</path>
+	  <zIndex>102</zIndex>
+    </image>
+
+	
+	<image name="Controller+logo 2" extra="true">
+			<storyboard>
+				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
+			</storyboard>	
+    </image>
+	 	  
+	<textlist name="gamelist">
+     <selectorColor>0080D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:none">00000000</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
+     <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentred">E8000060</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentgrey">C8C8C860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentblue">48A8E860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainblue">3070FF</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainred">A80000</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainblack">000000ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plaingrey">404040ff</selectorColor>
+	 <selectorColorEnd>00000000</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentred">E8000010</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentgrey">C8C8C810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentblue">48A8E810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainblue">3070FF</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainred">A80000</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainblack">000000ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plaingrey">404040ff</selectorColorEnd>
+	  <selectorOffsetY>0.01</selectorOffsetY>
+	<selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred|plainblack|plaingrey">0</selectorOffsetY>
+	  <selectedColor>48B8F0</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">FF4048</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
+	  <primaryColor>A0AABB</primaryColor>
+      <secondaryColor>7a6161</secondaryColor>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <forceUppercase>1</forceUppercase>
+      <pos>0.25 0.263</pos>
+      <size>0.5 0.62</size>
+      <alignment>center</alignment>
+      <horizontalMargin>0.005</horizontalMargin>
+      <fontSize>0.0324</fontSize>
+	  <lines>11</lines>
+        <scrollSound>./medias/sound/${x.scroll.sound}.wav</scrollSound>
+	  <zIndex>15</zIndex>	  
+	</textlist>
+
+    <image name="logo" extra="true">
+      <path>./art/logos/${system.theme}.png</path>
+      <path>./art/logos/${system.theme}.svg</path>
+	  <linearSmooth>true</linearSmooth>
+	  <pos>0.5 0.22456</pos>
+      <size>0.10 0.07</size>
+      <origin>0.5 0.5</origin>
+	  <zIndex>301</zIndex>
+		<storyboard>
+        		<animation property="y" from="-1.5" begin="0" duration="1800" mode="linear"/>
+        		<animation property="scale" to="1.02" begin="1800" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+	</image>
+
+	
+	<image name="L,R">
+	  <linearSmooth>true</linearSmooth>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.18 0.18</maxSize>
+      <zIndex>102</zIndex>
+    </image>
+
+	<image name="L" extra="true">
+		<pos>0.14 0.24</pos>
+	    <path>./_inc/Persosstarwars/xwingnoir.png</path>
+			<storyboard>
+				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="2800" mode="EaseOutQuint"/>
+			</storyboard>	
+     </image>
+	
+	<image name="R" extra="true">
+			<pos>0.83 0.24</pos>
+		    <path>./_inc/Persosstarwars/tie.png</path>
+			<storyboard>
+				<animation property="offsetX" from="0.326" to="0" begin="0" duration="2800" mode="EaseOutQuint"/>
+			</storyboard>	
+    </image>
+
+	
+    <image name="background">
+	  <path>./art/bgbasic.png</path>
+      <zIndex>1</zIndex>
+	</image>
+	
+	<image name="Chevrons Bas">
+      <pos>0.5 0.897</pos>
+	</image>
+	
+	<image name="Chevrons Haut">
+      <pos>0.5 0.245</pos>
+	</image>
+		
+	<image name="Controller+logo 1" extra="true">
+	  <pos>0.874 0.55</pos>
+     </image>
+	
+	<image name="Controller+logo 2" extra="true">
+	  <pos>0.126 0.55</pos>
+    </image>
+	
+	
+   </view>
+
+
+<!-- INDICADEUR-->	
+  <view name="screen">
+    <text name="clock">
+      <textColor>343e40BB</textColor>
+	  <color>C51C08</color>
+
+      <fontSize>0.028</fontSize>
+	  <fontPath>./_inc/fonts/NEON CLUB MUSIC_bold.otf</fontPath>
+      <pos>0.715 0.92</pos>
+      <size>0.28 0.115</size>
+      <alignment>right</alignment>
+      <verticalAlignment>center</verticalAlignment>
+   </text>
+
+      <controllerActivity name="controllerActivity">
+         <pos>0.965 0.94</pos>
+         <size>0.085 0.025</size>
+         <!--<horizontalAlignment>right</horizontalAlignment>-->
+         <itemSpacing>0.003</itemSpacing>
+         <imagePath>./medias/gamepad.svg</imagePath>
+         <color>C51C08</color>
+         <activityColor>6AC508</activityColor>
+         <hotkeyColor>C51C08</hotkeyColor>
+      </controllerActivity>
+
+  </view>
+
+<!-- Weels -->
+  <subset name="Weels menu">
+        <include name="Icons Weels">./medias/systemviews/icons.xml</include> 
+        <include name="Icons Weels 2">./medias/systemviews/icons2.xml</include> 
+        <include name="Icons Logos">./medias/systemviews/logos.xml</include>
+      	
+  </subset>
+
+
+  <view name="basic">  
+
+  
+    <image name="background, background2">
+	  <pos>0 0</pos>
+     	  <origin>0 0</origin>
+          <size>1 1</size>
+	  <linearSmooth>false</linearSmooth>	  
+	</image>
+	
+		
+	<image name="Chevron Bas, Chevron Haut, Chevron gauche, Chevron droite">
+      <origin>0.5 0.5</origin>
+      <size>0.01875 0</size>
+	  <color>DDDDDD</color>
+	  <path>./art/chevron-arrows-svgrepo-com.svg</path>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>41</zIndex>
+	</image>
+	
+	<image name="Chevron Bas" extra="true">
+	  <flipY>true</flipY>
+	  <rotation>0</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetY" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron Haut" extra="true">
+	  <flipY>false</flipY>
+	  <rotation>0</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron droite" extra="true">
+		<flipY>false</flipY>
+		<rotation>90</rotation>
+		<storyboard repeat="forever">
+            <animation property="offsetX" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetX" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron gauche" extra="true">
+	  <flipY>false</flipY>
+	  <rotation>-90</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetX" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+			
+    </view>
+    	 
+
+  <view name="detailed">
+
+
+	<image name="Controller+logo 1">
+	  <linearSmooth>true</linearSmooth>
+      <origin>0.5 0.4</origin>
+      <size>0.075 0</size>
+      <path>./art/controller.png</path>
+      <path>./art/wheel/${system.theme}.png</path>
+	  <zIndex>102</zIndex>
+    </image>
+
+	<image name="Controller+logo 2">
+	  <linearSmooth>true</linearSmooth>
+      <origin>0.5 0.5</origin>
+      <size>0.1375 0</size>
+      <path>./_inc/Persosstarwars/${system.theme}.png</path>
+	  <zIndex>102</zIndex>
+    </image>
+
+	<image name="Controller+logo 1" extra="true">
+			<storyboard>
+				<animation property="offsetX" from="0.326" to="0" begin="" duration="1400" mode="EaseOutQuint"/>
+			</storyboard>	
+     </image>
+	
+	<image name="Controller+logo 2" extra="true">
+			<storyboard>
+				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
+			</storyboard>	
+    </image>
+	 	  
+	<textlist name="gamelist">
+     <selectorColor>0080D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:none">00000000</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
+     <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentred">E8000060</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentgrey">C8C8C860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentblue">48A8E860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainblue">3070FF</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainred">A80000</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainblack">000000ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plaingrey">404040ff</selectorColor>
+	 <selectorColorEnd>00000000</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentred">E8000010</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentgrey">C8C8C810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentblue">48A8E810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainblue">3070FF</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainred">A80000</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainblack">000000ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plaingrey">404040ff</selectorColorEnd>
+	  <selectorOffsetY>0.01</selectorOffsetY>
+	<selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred|plainblack|plaingrey">0</selectorOffsetY>
+	  <selectedColor>48B8F0</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">FF4048</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
+	  <primaryColor>A0AABB</primaryColor>
+      <secondaryColor>7a6161</secondaryColor>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <forceUppercase>1</forceUppercase>
+      <pos>0.25 0.263</pos>
+      <size>0.5 0.52</size>
+      <alignment>center</alignment>
+      <horizontalMargin>0.005</horizontalMargin>
+      <fontSize>0.0324</fontSize>
+	  <lines>11</lines>
+        <scrollSound>./medias/sound/${x.scroll.sound}.wav</scrollSound>
+	  <zIndex>15</zIndex>	  
+	</textlist>
+   
+
+	<image name="LL" extra="true">
+	  <linearSmooth>true</linearSmooth>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.08 0.08</maxSize>
+      <zIndex>2</zIndex>
+		<pos>0.24 0.34</pos>
+	    <path>./_inc/Persosstarwars/r2d2.png</path>
+			<storyboard>
+				<animation property="offsetX" from="-0.426" to="0" begin="0" duration="2800" mode="EaseOutQuint"/>
+                                <animation propertx="offsetX" from="-0.226" to="0" begin="0" duration="2800" mode="EaseOutQuint"/>
+                                <animation property="offsetX" from="-0.226" to="0" begin="0" duration="2800" mode="EaseOutQuint"/>
+			</storyboard>	
+     </image>
+
+
+    <image name="background">
+	    <path>./art/bgdetailed.png</path>
+    </image>
+	
+	
+	<image name="Controller+logo 1" extra="true">
+	  <pos>0.874 0.568</pos>
+     </image>
+	
+	<image name="Controller+logo 2" extra="true">
+	  <pos>0.126 0.668</pos>
+    </image>
+	
+	<image name="Chevron Bas">
+      <pos>0.7640625 0.88</pos>
+	</image>
+	
+	<image name="Chevron Haut">
+      <pos>0.7640625 0.475</pos>
+	</image>
+	
+	<image name="Controller">
+	    <visible>false</visible>
+	</image>
+		
+	<image name="md_thumbnail">
+	  <pos>0.10 0.294</pos>
+      <maxSize>0.96 0.224</maxSize>
+	  	  <reflexion>0 0</reflexion>
+	  	  	<storyboard event="activate">
+                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+	</image>
+	
+	<image name="md_marquee">
+	  <linearSmooth>true</linearSmooth>
+	  <reflexion>0.25 0</reflexion>
+	  <pos>0.88 0.26</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.19 0.16</maxSize>
+	  <zIndex>42</zIndex>
+	  	  	 <storyboard event="activate">
+                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+	</image>
+			
+    <textlist name="gamelist">
+      <pos>0.25 0.431</pos>
+      <size>0.5 0.389</size>
+	  <lines>9</lines>
+	</textlist>
+	
+	<text name="md_name">
+      <visible>false</visible>
+    </text>
+
+    <image name="background, background2">
+	  <pos>0 0</pos>
+     	  <origin>0 0</origin>
+          <size>1 1</size>
+	  <linearSmooth>false</linearSmooth>	  
+	</image>
+	
+	<image name="background">
+	  <zIndex>1</zIndex>
+	</image>
+	
+	<image name="Chevron Bas, Chevron Haut, Chevron gauche, Chevron droite">
+      <origin>0.5 0.5</origin>
+      <size>0.01875 0</size>
+	  <color>DDDDDD</color>
+	  <path>./art/RedArrowD.png</path>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>41</zIndex>
+	</image>
+	
+	<image name="Chevron Bas" extra="true">
+	  <flipY>true</flipY>
+	  <rotation>0</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetY" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron Haut" extra="true">
+	  <flipY>false</flipY>
+	  <rotation>0</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron droite" extra="true">
+		<flipY>false</flipY>
+		<rotation>90</rotation>
+		<storyboard repeat="forever">
+            <animation property="offsetX" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetX" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron gauche" extra="true">
+	  <flipY>false</flipY>
+	  <rotation>-90</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetX" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+<!-- 	<image name="md_image">
+	  <default>./art/noimage.png</default>
+	  <linearSmooth>true</linearSmooth>
+	  <size>0.271875 0.36296296296</size>
+      <origin>0.5 0.5</origin>	
+      <zIndex>2</zIndex>	  
+	</image> -->
+	
+	<image name="md_thumbnail">
+	  <default>./art/noboxart.png</default>
+	  <linearSmooth>true</linearSmooth>
+	  <origin>0.5 0.5</origin>
+      <reflexion>0.3 0.0</reflexion>
+	  <zIndex>11</zIndex>	  
+	</image>
+	
+	<image name="md_marquee">
+	  <default>./art/nologo.png</default>	  
+	</image>
+	
+	<video name="md_video">
+<default>./medias/noise.mp4</default>
+         <pos>0.50 0.19</pos>
+	  <size>0.30296296296 0.26296296296</size>
+      <origin>0.5 0.5</origin>
+	  <delay>0.1</delay>
+	  <effect>none</effect>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+	  <delay>0.7</delay>
+	  <showSnapshotDelay>true</showSnapshotDelay>
+	  <snapshotSource>image</snapshotSource>
+      <loops>2</loops>
+      <roundCorners>0</roundCorners>
+	  <zIndex>0.3</zIndex>	  
+	</video>
+
+
+	<image name="frame-screen" extra="true">
+	  <size>0.31296296296 0.26296296296</size>
+          <pos>0.35 0.05</pos>
+	  <path>./medias/screen.png</path>
+	  <zIndex>0.5</zIndex>
+    </image>
+
+	<image name="mask" extra="true">
+	  <size>0.31296296296 0.26296296296</size>
+          <pos>0.35 0.05</pos>
+	  <path>./art/mask.png</path>
+	  <zIndex>0.1</zIndex>
+    </image>
+
+	<video name="box1_video" extra="true">
+<path>./_inc/animation01.mp4</path>
+<pos>0.10 0.12</pos>
+	  <size>0.46296296296 0.30296296296</size>
+      <origin>0.5 0.5</origin>
+	  <zIndex>0</zIndex>	  
+	</video>
+
+	<video name="box2_video" extra="true">
+<path>./_inc/animation02.mp4</path>
+<pos>0.810 0.12</pos>
+	  <size>0.46296296296 0.30296296296</size>
+      <origin>0.5 0.5</origin>
+	  <zIndex>0</zIndex>	  
+	</video>
+	  
+	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate">
+	  <linearSmooth>true</linearSmooth>
+	  <origin>0.5 0.5</origin>
+	  <size>0.02 0</size>
+      <color>969696</color>
+	  <zIndex>150</zIndex>	  
+	</image>
+	
+	<image name="md_hidden">
+	  <pos>0.81 0.8885</pos>
+      <path>./art/hidden.svg</path>
+    </image>
+	
+    <image name="md_kidgame, md_notkidgame">
+	  <pos>0.6015625 0.8885</pos>
+	  <color>994444</color>
+	  <size>0.018 0</size>
+      <path>./art/kid.svg</path>
+    </image>
+	
+	<image name="md_notkidgame">
+			<color>808080F0</color>
+	</image>
+	
+    <image name="md_favorite">
+	  <pos>0.88 0.42</pos>
+      <path>./art/favorite.svg</path>
+      <color>960000</color>
+	</image>
+	
+	<image name="md_flag">
+		<pos>0.788 0.47</pos>
+		<color>EEEEEE</color>
+	</image>
+	
+	<image name="md_manual, md_nomanual">
+			<path>./art/manual.png</path>
+			<color>009600</color>
+			<pos>0.2729166666666667 0.8885</pos>
+	</image>
+	
+	<image name="md_nomanual">
+			<color>808080F0</color>
+	</image>
+	
+	<image name="md_cheevos, md_notcheevos">
+			<path>./art/cheevos.png</path>
+			<color>969600</color>
+			<pos>0.4765625 0.8885</pos>
+	</image>
+	
+	<image name="md_notcheevos">
+			<color>808080F0</color>
+	</image>
+		
+	<image name="md_savestate, md_nosavestate">
+			<path>./art/SaveState.png</path>
+			<pos>0.733333 0.8885</pos>
+			<size>0.018 0</size>
+			<color>0022FF</color>
+	</image>
+	
+	<image name="md_nosavestate">
+			<color>808080F0</color>
+	</image>
+		
+	<text name="md_description">
+       <pos>0.873 0.795</pos>
+      <origin>0.5 0.5</origin>
+        <size>0.2356 0.123</size>
+      <color>E0E0E0ff</color>
+      <forceUppercase>1</forceUppercase>
+      <fontPath>./medias/adventure.ttf</fontPath>
+      <fontSize>0.016</fontSize>
+	  <glowColor>00000080</glowColor>
+	  <glowSize>1</glowSize>
+	  <glowOffset>1</glowOffset>
+      <zIndex>100</zIndex>
+		<storyboard>
+                <animation property="opacity" from="0" to="0" duration="1000" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1000" duration="1500" mode="Linear"/>
+		</storyboard>
+    </text>
+	
+	<text name="md_developer">
+      <pos>0.780 0.35</pos>
+      <color>4480AA</color>
+	  <fontPath>./art/ARCADE.TTF</fontPath>
+	  <forceUppercase>1</forceUppercase>
+	  <glowColor>00000016</glowColor>
+      <glowSize>1</glowSize>
+	  <zIndex>41</zIndex>
+	</text>
+	
+	<datetime name="md_releasedate">
+       <pos>0.920 0.35</pos>
+      <color>d2bfa8FF</color>
+	  <format>%Y</format>
+	  <fontPath>./art/ARCADE.TTF</fontPath>
+	  <glowColor>00000016</glowColor>
+      <glowSize>1</glowSize>
+	</datetime>
+		  
+        <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_lbl_lastplayed, md_publisher, md_lbl_gametime, md_gametime">
+		  <pos>1.5 1.5</pos>
+	      <visible>false</visible>
+	</text>
+	
+	<datetime name="md_lastplayed">
+		<pos>1.5 1.5</pos>
+  		<visible>false</visible>
+	</datetime>
+
+		<rating name="md_rating">
+         <pos>0.80 0.8688</pos>
+         <size>0.15 0.050</size>
+         <filledPath>./_inc/logo2.png</filledPath>
+         <unfilledPath>./_inc/logo1.png</unfilledPath>
+		 <zIndex>42</zIndex>
+      </rating>	
+			
+    </view>
+
+
+  <view name="video">
+
+	<image name="background">
+	  <path>./art/bgvideo3.png</path>
+	</image>
+		
+	
+	<video name="md_video">
+	  <pos>0.120 0.521296296</pos>
+	</video>
+	
+	<image name="Chevron Bas">
+	  <opacity>0.7</opacity>
+      <pos>0.91145 0.91</pos>
+	</image>	
+	
+	<image name="Chevron Haut">
+		<opacity>0.7</opacity>
+		<pos>0.91145 0.148</pos>
+	</image>
+	
+	
+	<image name="Controller" extra="true">
+			<pos>0.340 0.116</pos>
+			<size>0.114 0</size>	       	
+			<path>./art/controller.png</path>
+     		<path>./art/controllers/${system.theme}.png</path>
+	  <storyboard>
+	    <animation property="offsetX" from="-0.2" to="-0.2" begin="" duration="1000" mode="Linear"/>
+		<animation property="offsetX" from="-0.2" to="0" begin="1000" duration="250" mode="Linear"/>
+	  </storyboard>
+	<zIndex>101</zIndex>
+	</image>
+	
+	<image name="md_marquee">
+	  <linearSmooth>true</linearSmooth>
+	  <maxSize>0.2 0.12685185</maxSize>
+	  <pos>0.514 0.116</pos>
+	  <origin>0.5 0.5</origin>
+	  <zIndex>42</zIndex>
+	  	  	
+			<storyboard event="open">
+                <animation property="offsetY" from="-0.25" to="-0.25" duration="1000" mode="Linear"/>
+				<animation property="offsetY" from="-0.25" to="0" begin="1000" duration="250" mode="Linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+                <animation property="offsetY" from="-0.25" to="0" duration="500" mode="Linear"/>
+				<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+			    <animation property="scale" from="1" to="0" duration="500" mode="Linear"/>
+			</storyboard>
+	</image>	  
+	
+	<textlist name="gamelist">
+     <selectorColor>0080D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:none">00000000</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
+     <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentred">E8000060</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentgrey">C8C8C860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentblue">48A8E860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainblue">3070FFff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainred">A80000ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainblack">000000ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plaingrey">404040ff</selectorColor>
+	 <selectorColorEnd>00000000</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentred">E8000010</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentgrey">C8C8C810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentblue">48A8E810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainblue">3070FFff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainred">A80000ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainblack">000000ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plaingrey">404040ff</selectorColorEnd>
+	  <selectorOffsetY>0.01</selectorOffsetY>
+	  <selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred|plainblack|plaingrey">0</selectorOffsetY>
+	  <selectedColor>88D8F0</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">FF4048</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
+	  <primaryColor>899898</primaryColor>
+      <secondaryColor>7a6161</secondaryColor>
+      <fontPath>./art/BebasNeue.otf</fontPath>
+      <forceUppercase>1</forceUppercase>
+      <pos>0.770 0.5333333</pos>
+	  <origin>0.5 0.5</origin>
+      <size>0.24291666 0.78703703</size>
+      <alignment>left</alignment>
+      <horizontalMargin>0.005</horizontalMargin>
+      <fontSize>0.042</fontSize>
+	  <lines>13</lines>
+        <scrollSound>./medias/sound/${x.scroll.sound}.wav</scrollSound>
+	  <zIndex>13</zIndex>	  
+	</textlist>
+	
+	<text name="md_developer">
+	  <origin>0 0.5</origin>
+	<fontSize>0.035</fontSize>
+	  <pos>0.65 0.05</pos>
+	</text>
+	
+
+	<datetime name="md_releasedate">
+	  <alignment>left</alignment>
+	  <pos>0.65 0.11</pos>
+	  <origin>0 0.5</origin>
+	  <size>0.060 0.037</size>
+      <color>F0F66B</color>
+	  <format>%Y</format>
+	  <fontPath>./medias/adventure.ttf</fontPath>
+	  <glowColor>00000016</glowColor>
+      <glowSize>2</glowSize>
+	</datetime>
+	
+	<text name="md_description">
+      <origin>0.5 0.5</origin>
+	  <pos>0.122 0.75</pos>
+	  <size>0.24 0.10185185</size>
+	  <alignment>left</alignment>
+    </text>
+	
+		<rating name="md_rating">
+         <pos>0.764 0.0777</pos>
+         <size>0.15 0.050</size>
+         <filledPath>./_inc/logo2.png</filledPath>
+         <unfilledPath>./_inc/logo1.png</unfilledPath>
+		 <zIndex>42</zIndex>
+      </rating>	
+  
+    <image name="background">
+	  <pos>0 0</pos>
+     	  <origin>0 0</origin>
+          <size>1 1</size>
+	  <linearSmooth>false</linearSmooth>	  
+	</image>
+	
+	<image name="background">
+	  <zIndex>1</zIndex>
+	</image>
+	
+
+	  <image name="Controller, Controller1, Controller2">
+	  	<linearSmooth>true</linearSmooth>
+      		<origin>0.5 0.5</origin>
+	       	<path>./art/controller.png</path>
+     		<path>./art/controllers/${system.theme}.png</path>
+	  	<zIndex>101</zIndex>
+	</image>
+	
+	<image name="Chevron Bas, Chevron Haut, Chevron gauche, Chevron droite">
+      <origin>0.5 0.5</origin>
+      <size>0.01875 0</size>
+	  <color>DDDDDD</color>
+	  <path>./art/RedArrowD.png</path>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>41</zIndex>
+	</image>
+	
+	<image name="Chevron Bas" extra="true">
+	  <flipY>true</flipY>
+	  <rotation>0</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetY" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron Haut" extra="true">
+	  <flipY>false</flipY>
+	  <rotation>0</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron droite" extra="true">
+		<flipY>false</flipY>
+		<rotation>90</rotation>
+		<storyboard repeat="forever">
+            <animation property="offsetX" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetX" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron gauche" extra="true">
+	  <flipY>false</flipY>
+	  <rotation>-90</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetX" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+	
+	<image name="md_thumbnail">
+<visible>false</visible>	  
+	</image>
+	
+	<image name="md_marquee">
+	  <default>./art/nologo.png</default>	  
+	</image>
+	
+	<video name="md_video">
+<default>./medias/noise.mp4</default>
+	  <size>0.29296296296 0.29296296296</size>
+      <origin>0.5 0.5</origin>
+	  <delay>0.4</delay>
+	  <effect>none</effect>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+	  <showSnapshotDelay>true</showSnapshotDelay>
+	  <snapshotSource>image</snapshotSource>
+      <loops>2</loops>
+      <roundCorners>0.06</roundCorners>
+	  <zIndex>2</zIndex>
+		<storyboard>
+                <animation property="opacity" from="0" to="0" duration="1000" mode="Linear"/>
+				<animation property="opacity" from="0" to="0.450" begin="1000" duration="2500" mode="Linear"/>
+		</storyboard>	  
+	</video>
+
+
+	<image name="filtre" extra="true">
+      <path>./art/filtre1.png</path>
+          <pos>0 0</pos>
+          <size>1 0.990</size>
+          <origin>0 0</origin>
+          <delay>0</delay>
+	  <zIndex>2</zIndex>
+		<storyboard>
+        		<animation property="scale" to="1.0025" begin="0" autoreverse="true" duration="250" repeat="forever" mode="bump"/>
+        		<animation property="color" to="999999" begin="0" autoreverse="true" duration="5" repeat="forever" mode="linear"/>
+        		<animation property="colorEnd" to="ff9999" begin="0" autoreverse="true" duration="6000" repeat="forever" mode="linear"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+	</image>
+
+	<video name="box_video" extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.24 0.51</pos>
+	  <path>./_inc/animationfond.mp4</path>
+	  <size>0.800 0.800</size>
+	  <zIndex>0</zIndex>
+	</video>
+	
+	<text name="md_description">
+      <origin>0.5 0.5</origin>
+      <color>E0E0E0ff</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <fontSize>0.023</fontSize>
+	  <glowColor>00000080</glowColor>
+	  <glowSize>1</glowSize>
+	  <glowOffset>1</glowOffset>
+      <zIndex>15</zIndex>
+		<storyboard>
+                <animation property="opacity" from="0" to="0" duration="1000" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1000" duration="1500" mode="Linear"/>
+		</storyboard>
+    </text>
+	
+	<text name="md_developer">
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <color>4480AA</color>
+	  <forceUppercase>1</forceUppercase>
+	  <glowColor>00000016</glowColor>
+      <glowSize>2</glowSize>
+	  <zIndex>41</zIndex>
+	</text>
+
+	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
+	  <x>0.961979166</x>
+	  <size>0.031 0</size>
+      <color>767676</color>
+	  <origin>0.5 0.5</origin>
+	</image>
+	
+	<image name="md_hidden">
+      <path>./art/hidden.svg</path>
+    </image>
+	
+    <image name="md_kidgame, md_notkidgame">
+	  <y>0.9</y>
+	  <size>0.02 0</size>
+	  <color>50201080</color>
+      <path>./art/kid.svg</path>
+    </image>
+	
+	<image name="md_notkidgame">
+			<color>33333340</color>
+	</image>
+	
+    <image name="md_favorite, ghostfavorite">
+	  <y>0.067</y>
+      <path>./art/favorite.svg</path>
+      <color>960000</color>
+	</image>
+	
+	<image name="ghostfavorite" extra="true">
+      <color>76767640</color>
+	</image>
+	
+	<image name="md_flag">
+		<y>0.258</y>
+		<color>EEEEEE</color>
+	</image>
+	
+	<image name="md_manual, md_nomanual, ghostmanual">
+			<size>0.035 0</size>
+			<path>./art/manual.png</path>
+			<y>0.806</y>
+	</image>
+	
+	<image name="md_manual">
+		<color>009600</color>
+	</image>
+	
+	<image name="ghostmanual" extra="true">
+			<color>76767640</color>
+	</image>
+	
+	<image name="md_cheevos, md_notcheevos, ghostcheevos">
+			<size>0.032 0</size>
+			<path>./art/cheevos.png</path>
+			<y>0.533333</y>
+	</image>
+	
+	<image name="md_cheevos">
+			<color>969600</color>
+	</image>
+	
+	<image name="ghostcheevos" extra="true">
+			<color>76767640</color>
+	</image>
+		
+	<image name="md_savestate, md_nosavestate, ghostsavestate">
+			<path>./art/SaveState.png</path>
+			<y>0.670370370</y>
+	</image>
+	
+	<image name="md_savestate">
+			<color>0022FF</color>
+	</image>
+	
+	<image name="ghostsavestate" extra="true">
+			<color>76767640</color>
+	</image>
+			
+	<text name="md_players">
+      <color>928e94</color>
+	  <origin>0.5 0.5</origin>
+	  <size>0.03 0.037037</size>
+	  <alignment>left</alignment>
+	  <pos>0.98 0.397</pos>
+	  <forceUppercase>1</forceUppercase>
+	  <glowColor>00000016</glowColor>
+      <fontSize>0.034</fontSize>
+      <glowSize>2</glowSize>
+	  <zIndex>41</zIndex>
+	</text>
+		  
+			
+    </view>
+
+  <view name="gamecarousel">
+  
+    <image name="background">
+	  <pos>0 0</pos>
+     	  <origin>0 0</origin>
+          <size>1 1</size>
+	  <linearSmooth>false</linearSmooth>	  
+	</image>
+	
+	<image name="background">
+	  <zIndex>1</zIndex>
+	</image>
+	
+	<image name="black screen" extra="true">
+	  <path>./art/black screen.jpg</path>
+	  <opacity>1</opacity>
+	  <storyboard>
+			<animation property="opacity" from="1" to="0" begin="0" duration="1500" mode="Linear"/>
+     	  </storyboard>
+	  <zIndex>200</zIndex>
+	</image>
+
+	<image name="Controller+logo 1">
+	  <linearSmooth>true</linearSmooth>
+      <pos>0.553 0.84</pos>
+      <origin>0.5 0.4</origin>
+      <size>0.068 0</size>
+      <path>./art/controller.png</path>
+      <path>./art/wheel/${system.theme}.png</path>
+	  <zIndex>102</zIndex>
+    </image>
+	
+
+	<image name="Controller+logo 1" extra="true">
+			<storyboard>
+				<animation property="offsetX" from="0.326" to="0" begin="" duration="1400" mode="EaseOutQuint"/>
+			</storyboard>	
+     </image>
+
+	<image name="Controller+logo 2" extra="true">
+     <visible>false</visible>
+     </image>
+	
+
+	<video name="box_video" extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.829 0.47</pos>
+	  <path>./_inc/fond.mp4</path>
+	  <size>0.125 0.400</size>
+	  <zIndex>2</zIndex>
+	</video>
+
+
+	<image name="Chevron Bas, Chevron Haut, Chevron gauche, Chevron droite">
+      <origin>0.5 0.5</origin>
+      <size>0.01875 0</size>
+	  <color>DDDDDD</color>
+	  <path>./art/chevron-arrows-svgrepo-com.svg</path>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>41</zIndex>
+	</image>
+	
+	<image name="Chevron Bas" extra="true">
+	  <flipY>true</flipY>
+	  <rotation>0</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetY" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron Haut" extra="true">
+	  <flipY>false</flipY>
+	  <rotation>0</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron droite" extra="true">
+		<flipY>false</flipY>
+		<rotation>90</rotation>
+		<storyboard repeat="forever">
+            <animation property="offsetX" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetX" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron gauche" extra="true">
+	  <flipY>false</flipY>
+	  <rotation>-90</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetX" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+	
+	<image name="md_marquee">
+	  <default>./art/nologo.png</default>	  
+	</image>
+	
+	<video name="md_video">
+<default>./medias/noise.mp4</default>
+	  <pos>0.24 0.38</pos>
+	  <size>0.362 0.362</size>
+      <origin>0.5 0.5</origin>
+	  <delay>0.1</delay>
+	  <effect>none</effect>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+	  <delay>0.7</delay>
+	  <showSnapshotDelay>true</showSnapshotDelay>
+	  <snapshotSource>image</snapshotSource>
+      <loops>2</loops>
+      <roundCorners>0</roundCorners>
+	  <zIndex>0</zIndex>	  
+	</video>
+
+	<image name="frame-screen" extra="true">
+	  <size>0.360 0.360</size>
+	  <pos>0.085 0.19</pos>
+	  <path>./medias/screen.png</path>
+	  <zIndex>1</zIndex>
+    </image>
+	  
+	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
+	  <x>0.961979166</x>
+	  <size>0.031 0</size>
+      <color>767676</color>
+	  <origin>0.5 0.5</origin>
+	</image>
+	
+	<image name="md_hidden">
+      <path>./art/hidden.svg</path>
+    </image>
+	
+    <image name="md_kidgame, md_notkidgame">
+	  <y>0.9</y>
+	  <size>0.02 0</size>
+	  <color>50201080</color>
+      <path>./art/kid.svg</path>
+    </image>
+	
+	<image name="md_notkidgame">
+			<color>33333340</color>
+	</image>
+	
+    <image name="md_favorite, ghostfavorite">
+	  <y>0.067</y>
+      <path>./art/favorite.svg</path>
+      <color>960000</color>
+	</image>
+	
+	<image name="ghostfavorite" extra="true">
+      <color>76767640</color>
+	</image>
+	
+	<image name="md_flag">
+		<y>0.258</y>
+		<color>EEEEEE</color>
+	</image>
+	
+	<image name="md_manual, md_nomanual, ghostmanual">
+			<size>0.035 0</size>
+			<path>./art/manual.png</path>
+			<y>0.806</y>
+	</image>
+	
+	<image name="md_manual">
+		<color>009600</color>
+	</image>
+	
+	<image name="ghostmanual" extra="true">
+			<color>76767640</color>
+	</image>
+	
+	<image name="md_cheevos, md_notcheevos, ghostcheevos">
+			<size>0.032 0</size>
+			<path>./art/cheevos.png</path>
+			<y>0.533333</y>
+	</image>
+	
+	<image name="md_cheevos">
+			<color>969600</color>
+	</image>
+	
+	<image name="ghostcheevos" extra="true">
+			<color>76767640</color>
+	</image>
+		
+	<image name="md_savestate, md_nosavestate, ghostsavestate">
+			<path>./art/SaveState.png</path>
+			<y>0.670370370</y>
+	</image>
+	
+	<image name="md_savestate">
+			<color>0022FF</color>
+	</image>
+	
+	<image name="ghostsavestate" extra="true">
+			<color>76767640</color>
+	</image>
+		
+	<text name="md_description">
+      <origin>0.5 0.5</origin>
+      <color>E0E0E0ff</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <fontSize>0.023</fontSize>
+	  <glowColor>00000080</glowColor>
+	  <glowSize>1</glowSize>
+	  <glowOffset>1</glowOffset>
+      <zIndex>15</zIndex>
+		<storyboard>
+                <animation property="opacity" from="0" to="0" duration="1000" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1000" duration="1500" mode="Linear"/>
+		</storyboard>
+    </text>
+	
+	<text name="md_developer">
+	  <fontPath>./medias/adventure.ttf</fontPath>
+      <color>76CA46</color>
+	  <forceUppercase>1</forceUppercase>
+	  <glowColor>00000016</glowColor>
+      <glowSize>1</glowSize>
+	  <origin>0 0.5</origin>
+	<fontSize>0.015</fontSize>
+ 	  <pos>0.105 0.57703</pos>
+	  <zIndex>41</zIndex>
+	</text>
+	
+	<datetime name="md_releasedate">
+      <color>76CA46</color>
+	  <format>%Y</format>
+	  <fontPath>./medias/adventure.ttf</fontPath>
+	  <glowColor>00000016</glowColor>
+      <glowSize>1</glowSize>
+	  <alignment>right</alignment>
+ 	  <pos>0.265 0.581703</pos>
+	  <origin>0 0.5</origin>
+	<fontSize>0.015</fontSize>
+	</datetime>
+		  
+        <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_lbl_lastplayed, md_publisher, md_lbl_gametime, md_gametime">
+		  <pos>1.5 1.5</pos>
+	      <visible>false</visible>
+	</text>
+	
+	<datetime name="md_lastplayed">
+		<pos>1.5 1.5</pos>
+  		<visible>false</visible>
+	</datetime>
+    
+	<image name="background">
+	  <path>./art/bggamecarousel.png</path>
+	</image>
+
+	
+	
+	<image name="Chevron Bas">
+	  <opacity>0.7</opacity>
+      <pos>0.51 0.91</pos>
+	</image>	
+	
+	<image name="Chevron Haut">
+		<opacity>0.7</opacity>
+		<pos>0.51 0.025</pos>
+	</image>
+	
+	
+	<image name="md_marquee,Controller">
+	  <visible>false</visible>
+	</image>	  
+	
+	<gamecarousel name="gamecarousel">
+      <type>vertical_wheel</type>
+	  <logoAlignment>center</logoAlignment>
+	  <logoRotationOrigin>3.6 0.5</logoRotationOrigin>
+	  <logoRotation>12</logoRotation>
+	  <origin>0.5 0.5</origin>
+      <pos>0.612 0.47</pos>
+      <size>0.5 0.93</size>
+      <logoScale>2</logoScale>
+      <logoSize>0.20833333 0.22222</logoSize>
+      <maxLogoCount>11</maxLogoCount>
+      <imageSource>marquee</imageSource>
+      <zIndex>10</zIndex>
+        <scrollSound>./medias/sound/${x.scroll.sound}.wav</scrollSound>
+    </gamecarousel>    
+    
+	<text name="gamecarouselLogoText">
+      <fontPath>./art/BebasNeue.otf</fontPath>
+	  <color>AABBBBFF</color>
+	  <fontSize>0.042</fontSize>
+      <glowColor>000000FF</glowColor>
+      <glowSize>4</glowSize>
+      <lineSpacing>1.0</lineSpacing>
+    </text>
+	
+	<text name="md_name">
+      <color>DDD000</color>
+	  <pos>0.252 0.0563</pos>
+      <fontPath>./art/BebasNeue.otf</fontPath>  
+	  <size>0.4791666 0.11</size>
+	  <lineSpacing>1.1</lineSpacing>
+      <alignment>center</alignment>
+	  <fontSize>0.047</fontSize>
+	  <origin>0.5 0.5</origin>
+	  <glowColor>000000ff</glowColor>
+      <glowSize>3</glowSize>
+	  <zIndex>41</zIndex>
+	  <storyboard repeat="forever">
+            <animation property="color" from="DDD000" to="908A40" begin="" duration="1150" mode="Linear" autoReverse="true"/>
+	  </storyboard>	  	  
+	</text>
+
+		
+	
+	<rating name="md_rating">
+         <filledPath>./_inc/logo2.png</filledPath>
+         <unfilledPath>./_inc/logo1.png</unfilledPath>
+      <pos>0.478 0.603703</pos>
+      <size>0.08 0.025</size>
+	  <origin>0.5 0.5</origin>
+      <color>E0A020</color>
+      <unfilledColor>808080</unfilledColor>
+	  <zIndex>41</zIndex>
+     <rotation>76</rotation>	  
+    </rating>	
+	
+	<text name="md_description">
+      <origin>0.5 0.5</origin>
+	  <pos>0.244 0.835185185</pos>
+	  <size>0.48 0.2</size>
+	  <alignment>right</alignment>
+   </text>
+	
+  </view>
+     
+
+  <view name="grid">
+
+  
+    <image name="background, background2, black screen">
+	  <pos>0 0</pos>
+     	  <origin>0 0</origin>
+          <size>1 1</size>
+	  <linearSmooth>false</linearSmooth>	  
+	</image>
+	
+	<image name="background">
+	  <zIndex>1</zIndex>
+	</image>
+	
+	<image name="black screen" extra="true">
+	  <path>./art/black screen.jpg</path>
+	  <opacity>1</opacity>
+	  <storyboard>
+			<animation property="opacity" from="1" to="0" begin="0" duration="1500" mode="Linear"/>
+     	  </storyboard>
+	  <zIndex>200</zIndex>
+	</image>
+	
+	<text name="logoText">
+      <pos>0.5 0.5</pos>
+	  <origin>0.5 0.5</origin>
+      <size>0.98 0.126</size>
+      <alignment>center</alignment>
+      <fontSize>0.04</fontSize>
+      <fontPath>./medias/Roboto-Medium.ttf</fontPath>
+      <color>${baseColor}</color>
+	  <zIndex>201</zIndex>
+	  <storyboard>
+		  <animation property="scale" from="0" to="5" begin="" duration="300" mode="Linear"/>
+		  <animation property="scale" from="5" to="1" begin="620" duration="175" mode="Linear"/>
+		  <animation property="x" from="0.5" to="0.86" begin="620" duration="175" mode="Linear"/>
+		  <animation property="y" from="0.5" to="0.96" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</text>
+	
+    <image name="logo">
+	  <linearSmooth>true</linearSmooth>
+      <path>./art/logos/${system.theme}.png</path>
+      <path>./art/logos/${system.theme}.svg</path>
+	  <pos>0.5 0.5</pos>
+      <size>0.07 0.03 </size>
+      <origin>0.5 0.5</origin>
+	  <scale>0</scale>
+	  <zIndex>201</zIndex>
+	  <storyboard>
+		<animation property="scale" from="0" to="5" begin="" duration="300" mode="Linear"/>
+		<animation property="scale" from="5" to="1" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.92" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.94" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</image>
+	  
+	
+	<image name="Chevron Bas, Chevron Haut, Chevron gauche, Chevron droite">
+      <origin>0.5 0.5</origin>
+      <size>0.01875 0</size>
+	  <color>DDDDDD</color>
+	  <path>./art/chevron-arrows-svgrepo-com.svg</path>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>41</zIndex>
+	</image>
+	
+	<image name="Chevron Bas" extra="true">
+	  <flipY>true</flipY>
+	  <rotation>0</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetY" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron Haut" extra="true">
+	  <flipY>false</flipY>
+	  <rotation>0</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron droite" extra="true">
+		<flipY>false</flipY>
+		<rotation>90</rotation>
+		<storyboard repeat="forever">
+            <animation property="offsetX" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetX" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron gauche" extra="true">
+	  <flipY>false</flipY>
+	  <rotation>-90</rotation>
+      <storyboard repeatAt="1">
+            <animation property="offsetX" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+<!-- 	<image name="md_image">
+	  <default>./art/noimage.png</default>
+	  <linearSmooth>true</linearSmooth>
+	  <size>0.271875 0.36296296296</size>
+      <origin>0.5 0.5</origin>	
+      <zIndex>2</zIndex>	  
+	</image> -->
+	
+	<image name="md_thumbnail">
+	  <default>./art/noboxart.png</default>
+	  <linearSmooth>true</linearSmooth>
+	  <origin>0.5 0.5</origin>
+      <reflexion>0.3 0.0</reflexion>
+	  <zIndex>11</zIndex>	  
+	</image>
+	
+	<image name="md_marquee">
+	  <default>./art/nologo.png</default>	  
+	</image>
+
+
+	<video name="box_video" extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.51</pos>
+	  <path>./_inc/animation0.mp4</path>
+	  <size>1 0.800</size>
+	  <zIndex>0</zIndex>
+	</video>
+	  
+	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate">
+	  <linearSmooth>true</linearSmooth>
+	  <origin>0.5 0.5</origin>
+	  <size>0.02 0</size>
+	  <pos>0 0.9485</pos>
+      <color>37D4E5</color>
+	  <zIndex>150</zIndex>	  
+	</image>
+
+	
+	<image name="md_hidden">
+	  <pos>0.81 0.9485</pos>
+      <path>./art/hidden.svg</path>
+    </image>
+	
+    <image name="md_kidgame, md_notkidgame">
+	  <pos>0.6015625 0.9485</pos>
+	  <color>37D4E5</color>
+	  <size>0.018 0</size>
+      <path>./art/kid.svg</path>
+    </image>
+	
+	<image name="md_notkidgame">
+			<color>808080F0</color>
+	</image>
+	
+    <image name="md_favorite">
+	  <pos>0.88 0.40</pos>
+      <path>./art/favorite.svg</path>
+      <color>960000</color>
+	</image>
+	
+	<image name="md_flag">
+		<pos>0.788 0.45</pos>
+		<color>EEEEEE</color>
+	</image>
+	
+	<image name="md_manual, md_nomanual">
+			<path>./art/manual.png</path>
+			<color>009600</color>
+			<pos>0.2729166666666667 0.9485</pos>
+	</image>
+	
+	<image name="md_nomanual">
+			<color>808080F0</color>
+	</image>
+	
+	<image name="md_cheevos, md_notcheevos">
+			<path>./art/cheevos.png</path>
+			<color>969600</color>
+			<pos>0.4765625 0.9485</pos>
+	</image>
+	
+	<image name="md_notcheevos">
+			<color>808080F0</color>
+	</image>
+		
+	<image name="md_savestate, md_nosavestate">
+			<path>./art/SaveState.png</path>
+			<pos>0.733333 0.9485</pos>
+			<size>0.018 0</size>
+			<color>0022FF</color>
+	</image>
+	
+	<image name="md_nosavestate">
+			<color>808080F0</color>
+	</image>
+		
+	<text name="md_description">
+      <origin>0.5 0.5</origin>
+      <color>E0E0E0ff</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <fontSize>0.023</fontSize>
+	  <glowColor>00000080</glowColor>
+	  <glowSize>1</glowSize>
+	  <glowOffset>1</glowOffset>
+      <zIndex>15</zIndex>
+		<storyboard>
+                <animation property="opacity" from="0" to="0" duration="1000" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1000" duration="1500" mode="Linear"/>
+		</storyboard>
+    </text>
+	
+	<text name="md_developer">
+      <color>4480AA</color>
+	  <forceUppercase>1</forceUppercase>
+	  <glowColor>00000016</glowColor>
+      <glowSize>2</glowSize>
+	  <zIndex>41</zIndex>
+	</text>
+	
+	<datetime name="md_releasedate">
+	<pos>0.07765625 0.9185</pos>
+      <color>d2bfa8FF</color>
+	  <format>%Y</format>
+	  <fontPath>./medias/Roboto-Medium.ttf</fontPath>
+	  <glowColor>00000016</glowColor>
+      <glowSize>2</glowSize>
+	</datetime>
+		  
+	
+	<datetime name="md_lastplayed">
+		<pos>1.5 1.5</pos>
+  		<visible>false</visible>
+	</datetime>
+  
+    <image name="background">
+	  <path>./art/bggrid.png</path>
+	</image>
+			
+	<image name="Chevron Bas">
+      <size>0.017 0</size>
+	  <pos>0.986 0.9</pos>
+    </image>
+	
+	<image name="Chevron Haut">
+      <size>0.017 0</size>
+	  <pos>0.986 0.1</pos>
+    </image>
+		
+	<text name="md_name">
+      <color>EFEFEF</color>
+	  <pos>0.5 0.04</pos>
+      <size>0.8 0.05</size>
+      <alignment>center</alignment>
+	  <fontSize>0.056</fontSize>
+	  <origin>0.5 0.5</origin>
+      <glowSize>2</glowSize>
+	  <zIndex>41</zIndex>	  
+	</text>
+	
+	<text name="md_developer">
+      <color>5480A0</color>
+	  <pos>0.15 0.04</pos>
+      <size>0.25 0.05</size>
+      <alignment>left</alignment>
+	  <fontSize>0.036</fontSize>
+	  <origin>0.5 0.5</origin>
+	</text>
+	
+	<rating name="md_rating">
+      <pos>0.904 0.04</pos>
+          <size>0.15 0.050</size>
+         <filledPath>./_inc/logo2.png</filledPath>
+         <unfilledPath>./_inc/logo1.png</unfilledPath>
+	  <origin>0.5 0.5</origin>
+      <color>E0A020</color>
+      <unfilledColor>808080</unfilledColor>
+	  <zIndex>41</zIndex>	  
+    </rating>
+	
+    <imagegrid name="gamegrid">
+	  <margin>0.024 0.024</margin>
+      <pos>0 0.084</pos>
+      <size>1 0.828</size>
+      <padding>0.024 0.024 0.024 0.024</padding>
+      <zIndex>10</zIndex>
+      <autoLayout>6 2</autoLayout>
+      <autoLayoutSelectedZoom>1.1</autoLayoutSelectedZoom>
+      <animateSelection>false</animateSelection>
+      <centerSelection>false</centerSelection>
+	  <scrollLoop>true</scrollLoop>
+        <scrollSound>./medias/sound/${x.scroll.sound}.wav</scrollSound>
+	  <scrollDirection>vertical</scrollDirection>
+	  <scale>0</scale>
+	  <storyboard>
+				<animation property="scale" from="0" to="1" begin="620" duration="175" mode="EaseOut"/>
+      </storyboard>
+	</imagegrid>
+	
+    <gridtile name="default">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <selectionMode>image</selectionMode>
+      <padding>6 6</padding>
+      <imageColor>A0A0A0FF</imageColor>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>00000000</backgroundCenterColor>
+      <backgroundEdgeColor>000000ff</backgroundEdgeColor>
+	  <padding>6 6</padding>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+	
+    <text name="gridtile">
+      <color>D0D0D0</color>
+      <backgroundColor>00000000</backgroundColor>
+      <fontSize>0.02</fontSize>
+	  <glowSize>0</glowSize>
+      <alignment>center</alignment>
+      <size>1 0.1</size>
+    </text>
+	
+    <text name="gridtile:selected">
+      <color>EFEF00ff</color>
+	  <fontSize>0.02</fontSize>
+      <glowColor>24696E</glowColor>
+      <glowSize>0</glowSize>
+	  <size>1 0.1</size>
+    </text>
+	
+	<image name="gridtile.favorite">
+	 <linearSmooth>true</linearSmooth>
+      <path>:/star_filled.svg</path>
+      <pos>0.93 0.07</pos>
+      <maxSize>0.15 0.15</maxSize>
+      <origin>0.5 0.5</origin>
+      <horizontalAlignment>right</horizontalAlignment>
+      <color>FFFF0080</color>
+    </image>
+	
+    <image name="gridtile.favorite:selected">
+	  <linearSmooth>true</linearSmooth>
+      <color>70E4ED</color>
+    </image>
+	
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>24696E</animateColor>
+      <animateColorTime>350</animateColorTime>
+    </ninepatch>
+	
+	<image name="md_image, md_flag, md_thumbnail, md_marquee, Chevron gauche, Chevron droite">
+	  <visible>false</visible>
+	</image>
+	
+	
+	<image name="md_favorite">
+	  <color>00000000</color>
+	</image>
+	
+	
+    <text name="md_genre, md_players, md_playcount, md_description">
+      <pos>2 2</pos>
+    </text>
+	
+  </view>
+
+
+   <customView name="BoxCarousel" inherits="grid" displayName="${BoxCarousel}">
+    		
+	<image name="background">
+	  <path>./art/bgboxcarousel.png</path>
+	  <zIndex>2</zIndex>
+	</image>
+
+	<image name="background2" extra="true">
+	  <pos>0 0</pos>
+	  <size>1 1</size>
+	  <path>./art/bgboxcarousel2.png</path>
+	  <zIndex>3</zIndex>
+	</image>
+	
+	<image name="md_marquee">
+	  <default>./art/nologo.png</default>	  
+	</image>
+	
+	<video name="md_video">
+<default>./medias/noise.mp4</default>
+	  <pos>0.26 0.30</pos>
+	  <size>0.362 0.362</size>
+      <origin>0.5 0.5</origin>
+	  <delay>0.1</delay>
+	  <effect>none</effect>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+	  <delay>0.7</delay>
+	  <showSnapshotDelay>true</showSnapshotDelay>
+	  <snapshotSource>image</snapshotSource>
+      <loops>2</loops>
+      <roundCorners>0</roundCorners>
+	  <zIndex>1</zIndex>	  
+	</video>
+
+	<image name="frame-screen" extra="true">
+	  <size>0.360 0.360</size>
+	  <pos>0.085 0.19</pos>
+	  <path>./medias/screen.png</path>
+	  <zIndex>0</zIndex>
+    </image>
+
+
+	<video name="box_video" extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.68 0.39</pos>
+	  <path>./_inc/animationfond.mp4</path>
+	  <size>0.500 0.320</size>
+	  <zIndex>1</zIndex>
+	</video>
+	
+	
+	<image name="Chevron droite">
+		<color>BBBBBB</color>
+		<pos>0.91 0.79</pos>
+    </image>
+	
+	<image name="Chevron gauche">
+		<color>BBBBBB</color>
+		<pos>0.015 0.79</pos>
+    </image>
+	
+
+	<image name="md_marquee">
+		<visible>true</visible>
+		<linearSmooth>true</linearSmooth>
+		<color>BBBBBB</color>
+		<origin>1 1</origin>
+		<maxSize>0.1458333333 0.144</maxSize>
+		<pos>0.92 0.53</pos>
+		<reflexion>0.38 0.08</reflexion>
+		<storyboard event="open">
+                <animation property="offsetX" from="0.2" to="0.2" duration="1000" mode="Linear"/>
+				<animation property="offsetX" from="0.2" to="0" begin="1000" duration="250" mode="EaseOut"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+                <animation property="offsetX" from="0.2" to="0" duration="250" mode="EaseOut"/>
+				<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+			    <animation property="scale" from="1" to="0" duration="250" mode="EaseIn"/>
+				<animation property="offsetX" from="-0.05" to="-0.05" duration="250" mode="EaseOut"/>
+			</storyboard>
+			<zIndex>2</zIndex>
+	</image>
+
+
+   <image name="logo">
+	  <linearSmooth>true</linearSmooth>
+      <path>./art/logos/${system.theme}.png</path>
+      <path>./art/logos/${system.theme}.svg</path>
+	  <pos>0.5 0.5</pos>
+      <size>0.07 0.03 </size>
+      <origin>0.5 0.5</origin>
+	  <scale>0</scale>
+	  <zIndex>201</zIndex>
+	  <storyboard>
+		<animation property="scale" from="0" to="5" begin="" duration="300" mode="Linear"/>
+		<animation property="scale" from="5" to="1" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.958" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.895" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	
+	<image name="Controller" extra="true">
+			<pos>0.5418 0.418518</pos>
+			<color>BBBBBB</color>
+			<size>0.099 0</size>	       	
+			<path>./art/controller.png</path>
+     		<path>./art/controllers/${system.theme}.png</path>
+	  <storyboard>
+	    <animation property="offsetX" from="-0.08" to="-0.08" begin="" duration="1000" mode="Linear"/>
+		<animation property="offsetX" from="-0.08" to="0" begin="1000" duration="250" mode="Linear"/>
+	  </storyboard>
+	<zIndex>5</zIndex>
+	</image>
+	
+	
+	<imagegrid name="gamegrid">
+      <pos>0 0.625</pos>
+	  <padding>0.028 0.01 0.028 0.01</padding>
+	  <margin>0.03 0</margin>
+      <size>0.925 0.32</size>
+	  <scrollDirection >horizontal</scrollDirection>
+      <autoLayout>6 1</autoLayout>
+	  <imageSource>thumbnail</imageSource>
+      <autoLayoutSelectedZoom>1.035</autoLayoutSelectedZoom>
+      <centerSelection>false</centerSelection>
+	  <animateSelection>false</animateSelection>
+        <scrollSound>./medias/sound/${x.scroll.sound}.wav</scrollSound>
+	  <zIndex>11</zIndex>
+    </imagegrid>
+		
+	<gridtile name="default">
+      <padding>6 6</padding>
+      <backgroundCenterColor>00000000</backgroundCenterColor>
+	  <backgroundEdgeColor>00000000</backgroundEdgeColor>
+	  <selectionMode>image</selectionMode>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>A0A0A0FF</imageColor>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>000000ff</backgroundCenterColor>
+      <backgroundEdgeColor>70E4ED</backgroundEdgeColor>
+	  <backgroundCornerSize>0 0</backgroundCornerSize>
+	  <imageColor>FFFFFFFF</imageColor>
+      <padding>6 6</padding>
+    </gridtile>	
+	
+    <ninepatch name="gridtile.background:selected">
+      <animateColorTime>1000</animateColorTime>
+	  <animateColor>24696E</animateColor>
+    </ninepatch>
+	
+	<text name="md_name">
+      <color>DDD000</color>
+	  <pos>0.664 0.04</pos>
+	  <origin>0 1</origin>
+      <fontPath>./art/BebasNeue.otf</fontPath>  
+	  <size>0.31978 0.1</size>
+	  <lineSpacing>1.1</lineSpacing>
+      <alignment>left</alignment>
+	  <fontSize>0.033</fontSize>
+	  <origin>0.5 0.5</origin>
+	  <glowColor>000000ff</glowColor>
+      <glowSize>3</glowSize>
+	  <zIndex>41</zIndex>
+	  <storyboard repeat="forever">
+            <animation property="color" from="DDD000" to="908A40" begin="" duration="1150" mode="Linear" autoReverse="true"/>
+	  </storyboard>	  	  
+	</text>
+			
+	<datetime name="md_releasedate">
+	  <pos>0.504 0.2955</pos>
+	  <size>0.042 0.037</size>
+	  <alignment>left</alignment>
+      <origin>0 0.5</origin>
+	</datetime>
+	
+			
+	<text name="md_genre">
+   	  <pos>0.504 0.329</pos>
+	  <color>928e94D0</color>
+	  <origin>0 0.5</origin>
+	  <alignment>left</alignment>
+	  <size>0.401041666 0.03</size>
+	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontSize>0.028</fontSize>
+	  <glowColor>00000016</glowColor>
+      <glowSize>2</glowSize>
+	</text>
+	
+	<rating name="md_rating">
+	  <pos>0.84 0.0494</pos>
+         <size>0.12 0.035</size>
+         <filledPath>./_inc/logo2.png</filledPath>
+         <unfilledPath>./_inc/logo1.png</unfilledPath>
+		 <zIndex>42</zIndex>
+     </rating>	
+	
+	<text name="md_description">
+      <origin>0 0.5</origin>
+	  <pos>0.504 0.174</pos>
+	  <size>0.422 0.196</size>
+	  <alignment>left</alignment>
+    </text>
+
+	<image name="md_thumbnail">
+      <visible>false</visible>
+	</image>
+	  
+	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
+	  <x>0.961979166</x>
+	  <size>0.031 0</size>
+      <color>767676</color>
+	  <origin>0.5 0.5</origin>
+	</image>
+	
+	<image name="md_hidden">
+      <path>./art/hidden.svg</path>
+    </image>
+	
+    <image name="md_kidgame, md_notkidgame">
+	  <y>0.9</y>
+	  <size>0.02 0</size>
+	  <color>50201080</color>
+      <path>./art/kid.svg</path>
+    </image>
+	
+	<image name="md_notkidgame">
+			<color>33333340</color>
+	</image>
+	
+    <image name="md_favorite, ghostfavorite">
+	  <y>0.067</y>
+      <path>./art/favorite.svg</path>
+      <color>960000</color>
+	</image>
+	
+	<image name="ghostfavorite" extra="true">
+      <color>76767640</color>
+	</image>
+	
+	<image name="md_flag">
+		<y>0.258</y>
+		<color>EEEEEE</color>
+	</image>
+	
+	<image name="md_manual, md_nomanual, ghostmanual">
+			<size>0.035 0</size>
+			<path>./art/manual.png</path>
+			<y>0.806</y>
+	</image>
+	
+	<image name="md_manual">
+		<color>009600</color>
+	</image>
+	
+	<image name="ghostmanual" extra="true">
+			<color>76767640</color>
+	</image>
+	
+	<image name="md_cheevos, md_notcheevos, ghostcheevos">
+			<size>0.032 0</size>
+			<path>./art/cheevos.png</path>
+			<y>0.533333</y>
+	</image>
+	
+	<image name="md_cheevos">
+			<color>969600</color>
+	</image>
+	
+	<image name="ghostcheevos" extra="true">
+			<color>76767640</color>
+	</image>
+		
+	<image name="md_savestate, md_nosavestate, ghostsavestate">
+			<path>./art/SaveState.png</path>
+			<y>0.670370370</y>
+	</image>
+	
+	<image name="md_savestate">
+			<color>0022FF</color>
+	</image>
+	
+	<image name="ghostsavestate" extra="true">
+			<color>76767640</color>
+	</image>
+			
+	<text name="md_players">
+      <color>928e94</color>
+	  <origin>0.5 0.5</origin>
+	  <size>0.03 0.037037</size>
+	  <alignment>left</alignment>
+	  <pos>0.98 0.397</pos>
+	  <forceUppercase>1</forceUppercase>
+	  <glowColor>00000016</glowColor>
+      <fontSize>0.034</fontSize>
+      <glowSize>2</glowSize>
+	  <zIndex>41</zIndex>
+	</text>
+
+	<text name="md_developer">
+ 	  <pos>0.540 0.3055</pos>
+	  <size>0.26604 0.03</size>
+	  <origin>0 0.5</origin>
+         <color>928e94</color>
+	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontSize>0.020</fontSize>
+	</text>
+		
+	<datetime name="md_releasedate">
+      <color>846e74</color>
+	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontSize>0.028</fontSize>
+	</datetime>
+    
+	<text name="md_description">
+      <color>E0E0E0ff</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <fontSize>0.023</fontSize>
+	  <glowColor>00000080</glowColor>
+	  <glowSize>3</glowSize>
+	  <glowOffset>1</glowOffset>
+      <zIndex>15</zIndex>
+    </text>
+	
+  </customView>
+
+      	
+
+ 
+<!-- Son -->
+<subset name="son boutons">
+
+          <include subset="sound" name="off">./medias/sound/off.xml</include>
+          <include subset="sound" name="Sabrelaser1">./medias/sound/sabrelaser1.xml</include>
+	  <include subset="sound" name="Lightsaber">./medias/sound/Lightsaber.xml</include>
+	  <include subset="sound" name="Chewbacca1">./medias/sound/Chewbacca1.xml</include>
+          <include subset="sound" name="Chewbacca2">./medias/sound/Chewbacca2.xml</include>
+	  <include subset="sound" name="Curt">./medias/sound/Curt.xml</include>
+          <include subset="sound" name="DarthVader">./medias/sound/DarthVader.xml</include>
+          <include subset="sound" name="DroidHalt">./medias/sound/DroidHalt.xml</include>
+          <include subset="sound" name="Ewok">./medias/sound/Ewok.xml</include>
+          <include subset="sound" name="Ewok2">./medias/sound/Ewok2.xml</include>
+          <include subset="sound" name="GreedoKoona">./medias/sound/GreedoKoona.xml</include>
+          <include subset="sound" name="JawaOotanee">./medias/sound/JawaOotanee.xml</include>
+          <include subset="sound" name="R2D2Beeps">./medias/sound/R2D2Beeps.xml</include>
+          <include subset="sound" name="R2D2Cheerful">./medias/sound/R2D2Cheerful.xml</include>
+          <include subset="sound" name="RugorNass">./medias/sound/RugorNass.xml</include>
+          <include subset="sound" name="GreedoKoona">./medias/sound/GreedoKoona.xml</include>  
+          <include subset="sound" name="Salacious">./medias/sound/GreedoKoona.xml</include>
+  </subset>
+
+<!-- Shader -->
+    <include subset="Shader" name="off">./medias/shader/off.xml</include>
+    <include subset="Shader" name="crt">./medias/shader/crt.xml</include>
+    <include subset="Shader" name="scanlines1">./medias/shader/scanlines.xml</include>
+    <include subset="Shader" name="scanlines2">./medias/shader/scanlines3.xml</include>
+    <include subset="Shader" name="éclairs">./medias/shader/effect_glitch.xml</include>
+    <include subset="Shader" name="glitch">./medias/shader/effect_glitch1.xml</include>
+    <include subset="Shader" name="vhs">./medias/shader/effect_vhs_glitch.xml</include>
+
+
+
+
+
+  </theme>
